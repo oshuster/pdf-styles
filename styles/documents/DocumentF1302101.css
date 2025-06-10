@@ -1,0 +1,38 @@
+.document-container-F1302101 * {
+  word-break: keep-all;
+  letter-spacing: 0 !important;
+  font-family: "Times New Roman" !important;
+  font-size: 14px; }
+
+.document-container-F1302101 table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px; }
+
+.document-container-F1302101 .statement__block-details {
+  padding: 10px; }
+
+.document-container-F1302101 .statement__block-details {
+  justify-content: space-between;
+  gap: 20px; }
+
+.document-container-F1302101 .text-choice-needed {
+  display: flex;
+  margin-left: auto;
+  width: 180px;
+  font-size: 12px;
+  padding-bottom: 10px; }
+
+.document-container-F1302101 .statement__sign {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap; }
+
+.document-container-F1302101 .statement__name-surname div,
+.document-container-F1302101 .statement__name-surname input {
+  height: 20px;
+  width: 330px;
+  text-align: center;
+  min-height: 20px; }

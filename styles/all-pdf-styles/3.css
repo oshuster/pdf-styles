@@ -1,0 +1,107 @@
+
+
+html{
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+ul[class],
+ol[class]{
+    padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd{
+    margin: 0;
+}
+ul[class]{
+   list-style: none;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+input,
+button,
+textarea,
+select{
+    font: inherit;
+}
+a[class]{
+    text-decoration: none;
+}
+table, th{
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-weight: 400 !important;
+}
+th{
+    padding: 5px;
+}
+table{
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 20px;
+
+}
+.invoice-title__container{
+    width: 1000px;
+    font-size: 14px;
+    padding: 20px;
+    margin: 0 auto;
+}
+th{
+    border: 1px solid #000;
+    text-align: start;
+    text-align: left; 
+    vertical-align: top;
+    padding: 5px;
+}
+br{
+    height: 2px;
+}
+p{
+    padding-bottom: 10px;
+}
+.invoice-title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.invoice-title__date{
+    margin-top: 4px;
+    font-style: italic;
+}
+
+
+
+.flex-text-sign{
+    display: flex;
+    gap: 20px;
+}
+.border-bottom__200{
+    border-bottom: 1px solid #000;
+    width: 200px;
+}

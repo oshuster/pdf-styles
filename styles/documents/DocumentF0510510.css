@@ -1,0 +1,213 @@
+.document-container-f0510510 * {
+  word-break: keep-all;
+  letter-spacing: 0 !important;
+  font-family: "Times New Roman" !important;
+  font-size: 14px;
+}
+.document-container-f0510510 * table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.document-container-f0510510 table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.document-container-f0510510 .header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.document-container-f0510510 .statement__stamp {
+  width: 380px;
+  margin-top: 30px;
+}
+
+.document-container-f0510510 .statement__approved {
+  width: 250px;
+}
+
+.document-container-f0510510 .statement__what-document {
+  margin-bottom: 10px;
+}
+
+.document-container-f0510510 .statement-without__table-inside {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 6px;
+}
+
+.document-container-f0510510 .statement-without__p-top {
+  border: 1px solid #000;
+  width: 220px;
+}
+
+.document-container-f0510510 .statement-without__p-year {
+  width: 80px;
+  border: 1px solid #000;
+}
+
+.document-container-f0510510 .statement-without__p-kvartal {
+  width: 80px;
+  border: 1px solid #000;
+}
+
+.document-container-f0510510 .statement-without__table-title {
+  border-right: 1px solid #000;
+}
+
+.document-container-f0510510 .title-number {
+  width: 30px;
+}
+
+.document-container-f0510510 .statement-adress__specific u {
+  display: block;
+}
+
+.document-container-f0510510 .statement-calculation__specific {
+  display: flex;
+  gap: 150px;
+}
+
+.document-container-f0510510 .table-info th {
+  text-align: start;
+}
+
+.document-container-f0510510 .table-info {
+  margin-bottom: 20px;
+}
+
+.document-container-f0510510 .table-payment__write {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 5px;
+  align-items: flex-end;
+}
+
+.document-container-f0510510 .table-payment__write-input {
+  border-bottom: 1px solid #000;
+  width: 160px;
+}
+
+.document-container-f0510510 .table-payment {
+  margin-bottom: 20px;
+}
+
+.document-container-f0510510 .statement-without__table {
+  display: flex;
+  border: 1px solid #000;
+}
+
+.document-container-f0510510 .statement__reportable-period {
+  margin-bottom: 10px;
+}
+
+.document-container-f0510510 .table-title-number {
+  width: 50px;
+}
+
+.document-container-f0510510 .table-write-block {
+  width: 200px;
+}
+
+.document-container-f0510510 .table table {
+  margin-bottom: 5px;
+}
+
+.document-container-f0510510 .font-size-12 th {
+  font-size: 12px;
+}
+
+.document-container-f0510510 .comment {
+  margin-top: 20px;
+}
+
+.document-container-f0510510 .sign {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.document-container-f0510510 .sign-top,
+.document-container-f0510510 .sign-bottom {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.document-container-f0510510 .sign-block__number {
+  width: 200px;
+}
+
+.document-container-f0510510 .sign-block__number-input {
+  border: 1px solid #000;
+  width: 200px;
+  min-height: 20px;
+}
+
+.document-container-f0510510 .sign-block__sign-input {
+  border-bottom: 1px solid #000;
+  width: 120px;
+  min-height: 20px;
+}
+
+.document-container-f0510510 .sign-blocks__name-input {
+  border: 1px solid #000;
+  width: 310px;
+  min-height: 20px;
+}
+
+.document-container-f0510510 .date {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 40px;
+}
+
+.document-container-f0510510 .date-input {
+  border: 1px solid #000;
+  width: 200px;
+}
+
+.document-container-f0510510 .statement-boss__which,
+.document-container-f0510510 .statement-boss__which {
+  display: flex;
+}
+
+.document-container-f0510510 .statement-boss__which {
+  display: flex;
+  justify-content: space-between;
+}
+
+.document-container-f0510510 .statement-boss__which-name {
+  display: flex;
+  gap: 50px;
+}
+
+.document-container-f0510510 .text__MP {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.document-container-f0510510 .statement-boss__name {
+  max-width: 800px;
+}
+
+.document-container-f0510510 .statement-boss__sign {
+  max-width: 100px;
+}
+
+.document-container-f0510510 .statement-boss__which-name {
+  display: flex;
+  margin-top: 20px;
+  justify-content: end;
+}
+
+.document-container-f0510510 .statement-name__width {
+  min-width: 300px;
+}

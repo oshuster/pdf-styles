@@ -1,0 +1,57 @@
+.document-container-f0209512 table {
+  width: 100%;
+  margin-bottom: 20px;
+  min-width: 500px; }
+
+.document-container-f0209512 table th {
+  font-weight: 400; }
+
+.document-container-f0209512 .document-info__top {
+  text-align: end;
+  max-width: 280px;
+  margin-left: auto; }
+
+.document-container-f0209512 .note-obsession {
+  padding: 20px;
+  max-width: 300px; }
+
+.document-container-f0209512 .date-send-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: end; }
+
+.document-container-f0209512 .certify-boss,
+.document-container-f0209512 .certify-accounting {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center; }
+
+.document-container-f0209512 .certify-boss-name {
+  padding-top: 25px; }
+
+.document-container-f0209512 .sign-date {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; }
+
+.document-container-f0209512 .year {
+  display: flex; }
+
+.document-container-f0209512 .year-day {
+  width: 20px;
+  border-bottom: 1px solid #000;
+  height: 20px; }
+
+.document-container-f0209512 .year-month {
+  width: 100px;
+  border-bottom: 1px solid #000;
+  height: 20px; }
+
+.document-container-f0209512 .year-years {
+  margin-left: 10px;
+  width: 40px;
+  border-bottom: 1px solid #000;
+  height: 20px; }

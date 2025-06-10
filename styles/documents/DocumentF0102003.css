@@ -1,0 +1,154 @@
+.document-container-f0102003 .header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.document-container-f0102003 .header__number-statement,
+.document-container-f0102003 .statement-identification {
+  display: flex;
+  gap: 20px;
+}
+
+.document-container-f0102003 .header__number-statement-text {
+  width: 200px;
+}
+
+.document-container-f0102003 .header__info-doc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.document-container-f0102003 .statement__choice-form {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.document-container-f0102003 .statement__choice-form table {
+  width: 33%;
+}
+
+.document-container-f0102003 .statement-adress__block-index,
+.document-container-f0102003 .statement-adress__block-country,
+.document-container-f0102003 .statement-adress__region,
+.document-container-f0102003 .statement-adress__sity,
+.document-container-f0102003 .statement-adress__district,
+.document-container-f0102003 .statement-adress__street,
+.document-container-f0102003 .statement-adress__block-home,
+.document-container-f0102003 .statement-adress__block-corpus,
+.document-container-f0102003 .statement-adress__block-apartament,
+.document-container-f0102003 .statement-adress__block-number,
+.document-container-f0102003 .statement-adress__home-contact {
+  display: flex;
+  gap: 20px;
+}
+
+.document-container-f0102003 .statement-adress__region-table,
+.document-container-f0102003 .statement-adress__street-table,
+.document-container-f0102003 .statement-adress__sity-table,
+.document-container-f0102003 .statement-adress__district-table,
+.document-container-f0102003 .statement-adress__sity,
+.document-container-f0102003 .statement-adress__district,
+.document-container-f0102003 .statement-adress__street {
+  width: 100%;
+}
+
+.document-container-f0102003 .statement-adress__block-index p,
+.document-container-f0102003 .statement-adress__block-country p,
+.document-container-f0102003 .statement-adress__region p,
+.document-container-f0102003 .statement-adress__sity p,
+.document-container-f0102003 .statement-adress__district p,
+.document-container-f0102003 .statement-adress__street p {
+  width: 100px;
+}
+
+.document-container-f0102003 .popup-custom__block input,
+.document-container-f0102003 .popup-custom__block {
+  width: 100%;
+}
+
+.document-container-f0102003 .statement-adress__index-country {
+  display: grid;
+  gap: 10px 50px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.document-container-f0102003 .statement-adress__home-contact {
+  display: flex;
+  align-items: end;
+}
+
+.document-container-f0102003 .inline-block {
+  display: inline-block;
+}
+
+.document-container-f0102003 .flex-more {
+  flex-wrap: wrap;
+}
+
+.document-container-f0102003 .statement__info-registration {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.document-container-f0102003 .statement__registration-tax,
+.document-container-f0102003 .statement-choise__registration,
+.document-container-f0102003 .statement-choise__cancellation {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.document-container-f0102003 .statement__tax-number {
+  display: flex;
+  gap: 20px;
+}
+
+.document-container-f0102003 .table-without-border td,
+.document-container-f0102003 .table-without-border th,
+.document-container-f0102003 .table-without-border table {
+  border: none;
+}
+
+.document-container-f0102003 .statement__data-refusal {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+}
+
+.document-container-f0102003 .flex-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.document-container-f0102003 .flex-text-1 {
+  display: flex;
+  gap: 5px;
+  align-items: end;
+}
+
+.document-container-f0102003 .quality-working {
+  display: flex;
+}
+
+.document-container-f0102003 .statement__name-surname {
+  max-width: 300px;
+  min-width: 240px;
+  margin-top: 0;
+}
+
+.document-container-f0102003 .statement-sign-person {
+  display: flex;
+  justify-content: space-between;
+}
+
+.document-container-f0102003 .statement-choise__registration-cancellation {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

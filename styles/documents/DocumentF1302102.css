@@ -1,0 +1,30 @@
+.document-container-F1302102 table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px; }
+
+.document-container-F1302102 .statement__block-details {
+  padding: 10px; }
+
+.document-container-F1302102 .statement__block-details {
+  justify-content: space-between;
+  gap: 20px; }
+
+.document-container-F1302102 .text-choice-needed {
+  display: flex;
+  margin-left: auto;
+  width: 180px;
+  font-size: 12px;
+  padding-bottom: 10px; }
+
+.document-container-F1302102 .statement__sign {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%; }
+
+.document-container-F1302102 .date {
+  display: flex;
+  align-items: center;
+  max-width: 200px; }

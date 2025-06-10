@@ -1,0 +1,151 @@
+.document-container-F0510410 table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.document-container-F0510410 .doc__stamp {
+  height: 80px;
+}
+.document-container-F0510410 * table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.document-container-F0510410 .statement__stamp {
+  margin-top: 20px;
+  width: 250px;
+}
+
+.document-container-F0510410 .header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.document-container-F0510410 .statement__approved {
+  width: 260px;
+  margin-bottom: 30px;
+}
+
+.document-container-F0510410 .tax-period th {
+  min-width: 40px;
+}
+
+.document-container-F0510410 .tax-period,
+.document-container-F0510410 .info-person,
+.document-container-F0510410 .section-one,
+.document-container-F0510410 .statement__what-document,
+.document-container-F0510410 .section-two,
+.document-container-F0510410 .section-three {
+  margin-bottom: 10px;
+}
+
+.document-container-F0510410 .section-one table {
+  width: 100%;
+}
+
+.document-container-F0510410 .number-for {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.document-container-F0510410 .number-for__block {
+  display: flex;
+  gap: 10px;
+}
+
+.document-container-F0510410 .number-for__block-input {
+  border: 1px solid #000;
+  width: 200px;
+}
+
+.document-container-F0510410 .date-table {
+  margin: 20px 0;
+}
+
+.document-container-F0510410 .comment {
+  margin-top: 20px;
+}
+
+.document-container-F0510410 .comment p {
+  margin-bottom: 6px;
+}
+
+.document-container-F0510410 .sign {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-20);
+  margin-top: 20px;
+}
+
+.document-container-F0510410 .sign-top,
+.document-container-F0510410 .sign-bottom {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.document-container-F0510410 .sign-block__number {
+  width: 200px;
+}
+
+.document-container-F0510410 .sign-block__number-input {
+  border: 1px solid #000;
+  width: 200px;
+  min-height: 20px;
+}
+
+.document-container-F0510410 .sign-block__sign-input {
+  border-bottom: 1px solid #000;
+  width: 120px;
+  min-height: 20px;
+}
+
+.document-container-F0510410 .sign-blocks__name-input {
+  border-bottom: 1px solid #000;
+  width: 300px;
+  min-height: 20px;
+}
+
+.document-container-F0510410 .width-title-checkbox {
+  width: 140px;
+}
+
+.document-container-F0510410 .statement-boss__which,
+.document-container-F0510410 .statement-boss__which {
+  display: flex;
+}
+
+.document-container-F0510410 .statement-boss__which {
+  display: flex;
+  justify-content: space-between;
+}
+
+.document-container-F0510410 .statement-boss__which-name {
+  display: flex;
+  gap: 50px;
+}
+
+.document-container-F0510410 .text__MP {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.document-container-F0510410 .statement-boss__name {
+  max-width: 800px;
+}
+
+.document-container-F0510410 .statement-boss__sign {
+  max-width: 100px;
+}
+
+.document-container-F0510410 .statement-boss__which-name {
+  display: flex;
+  margin-top: 20px;
+  justify-content: end;
+}
+
+.document-container-F0510410 .statement-name__width {
+  min-width: 300px;
+}

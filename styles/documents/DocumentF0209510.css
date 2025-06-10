@@ -1,0 +1,62 @@
+.document-container-f0209510 * {
+  font-family: "Times New Roman", Times, serif;
+  border-collapse: collapse;
+  word-wrap: break-word;
+  word-break: keep-all;
+}
+.document-container-f0209510 table {
+  width: 100%;
+  margin-bottom: 20px;
+  min-width: 500px;
+}
+.document-container-f0209510 table th {
+  font-weight: 400;
+}
+.document-container-f0209510 .document-info__top {
+  text-align: end;
+  max-width: 280px;
+  margin-left: auto;
+}
+.document-container-f0209510 .note-obsession {
+  padding: 20px;
+  max-width: 300px;
+}
+.document-container-f0209510 .date-send-flex {
+  display: flex;
+  flex-direction: row;
+}
+.document-container-f0209510 .certify-boss,
+.document-container-f0209510 .certify-accounting {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.document-container-f0209510 .certify-boss__date,
+.document-container-f0209510 .certify-boss__sign,
+.document-container-f0209510 .certify-boss-name {
+  padding-top: 30px;
+}
+.document-container-f0209510 .certify-authenticity {
+  margin-bottom: 30px;
+}
+.document-container-f0209510 .year {
+  display: flex;
+}
+.document-container-f0209510 .year-day {
+  width: 20px;
+  border-bottom: 1px solid #000;
+  height: 20px;
+}
+.document-container-f0209510 .year-month {
+  width: 100px;
+  border-bottom: 1px solid #000;
+  height: 20px;
+}
+.document-container-f0209510 .year-years {
+  margin-left: 10px;
+  width: 40px;
+  border-bottom: 1px solid #000;
+  height: 20px;
+}

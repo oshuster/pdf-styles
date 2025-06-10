@@ -1,0 +1,123 @@
+.document-container-f1319104 * {
+  word-break: keep-all;
+  letter-spacing: 0 !important;
+  font-family: "Times New Roman" !important;
+  font-size: 14px; }
+  .document-container-f1319104 * table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; }
+
+.document-container-f1319104 table {
+  width: 100%;
+  margin-bottom: 20px; }
+
+.document-container-f1319104 .number__statement {
+  font-size: 13px; }
+
+.document-container-f1319104 .doc__title {
+  font-size: 16px; }
+
+.document-container-f1319104 .title-statement {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 20px; }
+
+.document-container-f1319104 .order__for-info th {
+  border: 1px solid #000;
+  font-weight: 400; }
+
+.document-container-f1319104 .order__for-info table {
+  width: 100%;
+  margin-bottom: 20px; }
+
+.document-container-f1319104 .title-table {
+  width: 100%;
+  width: 150px; }
+
+.document-container-f1319104 .none th {
+  border: none; }
+
+.document-container-f1319104 .border-right {
+  border-right: 1px solid #000 !important; }
+
+.document-container-f1319104 .bord-bott {
+  border-bottom: 1px solid #000 !important; }
+
+.document-container-f1319104 .text-position {
+  text-align: start; }
+
+.document-container-f1319104 .data-order {
+  margin-top: 20px;
+  display: flex;
+  gap: 50px; }
+
+.document-container-f1319104 .data-order h4 {
+  font-weight: 400; }
+
+.document-container-f1319104 .data-order-line {
+  margin-top: 4px;
+  font-weight: 400;
+  border-bottom: 1px solid #000; }
+
+.document-container-f1319104 table {
+  margin-bottom: 20px; }
+
+.document-container-f1319104 .data-order {
+  margin-bottom: 20px; }
+
+.document-container-f1319104 .comment {
+  margin-top: 10px; }
+
+.document-container-f1319104 .padding-5 {
+  padding-bottom: 5px; }
+
+.document-container-f1319104 .text-center {
+  text-align: center; }
+
+.document-container-f1319104 .easy__title {
+  text-align: center; }
+
+.document-container-f1319104 .easy__title h2 {
+  font-size: 22px; }
+
+.document-container-f1319104 .easy__title h3 {
+  margin-bottom: 50px; }
+
+.document-container-f1319104 .easy__period h3 {
+  text-align: center; }
+
+.document-container-f1319104 .easy__which-period {
+  margin-bottom: 10px; }
+
+.document-container-f1319104 .easy__table-small {
+  width: 320px !important; }
+
+.document-container-f1319104 .react-datepicker__view-calendar-icon input {
+  padding: 8px 10px 5px 30px;
+  margin: 0 auto; }
+
+.document-container-f1319104 .react-datepicker-wrapper {
+  margin: 0 auto;
+  width: 150px; }
+
+.document-container-f1319104 .width-100 {
+  width: 100px; }
+
+.document-container-f1319104 .display-flex {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between; }
+
+.document-container-f1319104 select {
+  border-radius: 4px;
+  margin: 0 auto; }
+
+.document-container-f1319104 .react-datepicker-wrapper {
+  border: 1px solid #b5e2ff; }
+
+.document-container-f1319104 .custom-input-picker input {
+  border-radius: 0; }
+
+

@@ -1,0 +1,183 @@
+.document-container-F0134107 table {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  letter-spacing: normal;
+}
+.document-container-F0134107 table td,
+.document-container-F0134107 table th {
+  word-break: keep-all !important;
+  min-height: 20px;
+  height: 20px;
+}
+
+.document-container-F0134107 .input-100-procent {
+  min-width: 100%;
+}
+
+.document-container-F0134107 .statement__border {
+  padding: 5px;
+  border: 1px solid #000;
+}
+
+.document-container-F0134107 .text-into-small-input {
+  min-width: 70px;
+}
+
+.document-container-F0134107 .statement-registration,
+.document-container-F0134107 .statement__seria,
+.document-container-F0134107 .statement__name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.document-container-F0134107 .period p {
+  display: flex;
+  align-items: center;
+}
+
+.document-container-F0134107 .statement__period-specified {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.document-container-F0134107 .statement__border {
+  width: auto;
+}
+
+.document-container-F0134107 .statement-title-flex {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+  border: 1px solid #000;
+  justify-content: center;
+  border-right: 0;
+}
+
+.document-container-F0134107 .header__addition {
+  width: 210px;
+  line-height: 14px;
+}
+
+.document-container-F0134107 .statement-top {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.document-container-F0134107 .statement__registration,
+.document-container-F0134107 .statement__series {
+  display: flex;
+  justify-content: space-between;
+}
+
+.document-container-F0134107 .statement__period {
+  margin-top: 10px;
+  margin-left: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.document-container-F0134107 .display-block {
+  display: block;
+}
+
+.document-container-F0134107 .period {
+  display: flex;
+  gap: 10px;
+}
+
+.document-container-F0134107 .statement__border-footer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.document-container-F0134107 .statement-period-date {
+  display: flex;
+  gap: 20px;
+}
+
+.document-container-F0134107 .statement__type-form {
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.document-container-F0134107 .statement__type-form sup {
+  font-size: 12px;
+}
+
+.document-container-F0134107 .type-form__106 {
+  display: flex;
+  gap: 5px;
+}
+
+.document-container-F0134107 .statement__title-stop {
+  display: flex;
+}
+
+.document-container-F0134107 .statement__data-stop {
+  display: flex;
+  gap: 20px;
+}
+
+.document-container-F0134107 .statament__stop-table {
+  display: flex;
+  gap: 5px;
+  height: 24px;
+}
+
+.document-container-F0134107 .statement__kod {
+  display: flex;
+  justify-content: space-between;
+}
+
+.document-container-F0134107 .statement__period-onsimplified {
+  display: flex;
+  gap: 60px;
+}
+
+.document-container-F0134107 .statement__onsimplified-table {
+  display: flex;
+  gap: 10px;
+}
+
+.document-container-F0134107 .statement__kod-kategory {
+  display: flex;
+  gap: 74px;
+}
+
+.document-container-F0134107 .income-month {
+  min-width: 80px;
+}
+
+.document-container-F0134107 .income-sum-max {
+  min-width: 280px;
+}
+
+.document-container-F0134107 .statemetn-mistake__spesial {
+  width: 100%;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.document-container-F0134107 .statement-footer__sign-name {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+.document-container-F0134107 .statement-footer {
+  padding: 0 0 10px 0;
+  display: flex;
+  gap: 30px;
+}

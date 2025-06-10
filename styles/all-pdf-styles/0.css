@@ -1,0 +1,268 @@
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+ul[class] {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+a[class] {
+    text-decoration: none;
+}
+
+table {
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 5px;
+}
+
+.container-act {
+    font-weight: 400;
+    padding: 20px;
+    font-size: 16px;
+    width: 210mm;
+    min-height: 297mm;
+    margin: 5mm auto;
+    background: white;
+}
+
+.container-act * {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.header-act {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header-act__provider,
+.header-act__payer {
+    display: flex;
+    gap: 200px;
+}
+
+.header-act__provider-title,
+.header-act__payer-title {
+    font-size: 14px;
+}
+
+.header-act__payer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: 300;
+    max-width: 335px;
+}
+
+
+
+.header-act__payer-text,
+.header-act__provider-info {
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.header-act__provider-info p {
+    padding-bottom: 5px;
+}
+
+.header-act__payer-title,
+.header-act__provider-top {
+    min-width: 250px;
+    max-width: 250px;
+    font-size: 14px;
+}
+
+.header-act__date {
+    display: flex;
+    margin-right: 0;
+    margin-left: auto;
+    margin-bottom: 20px;
+    width: 300px;
+    font-weight: 300;
+}
+
+.main-act {
+    margin-bottom: 20px;
+}
+
+.main-act__title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    gap: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.main-act__table table,
+.main-act__table th {
+    border: 1px solid #000;
+    min-height: 20px;
+}
+
+.main-act__table table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main-act__table thead th {
+    text-align: center;
+    font-weight: 700;
+}
+
+.main-act__table tbody th {
+    font-weight: 400;
+    text-align: center;
+}
+
+.main-act__table-flex {
+    text-align: center;
+}
+
+.footer-act {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.footer-act__inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: flex-end;
+}
+.footer-act--acceptance-certificate, .footer-act--expenditure-invoice {
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.footer__sign-border {
+    border-bottom: 1px solid #000000;
+    padding-top: 30px;
+    width: 300px;
+}
+
+.footer-act-give, .footer-act-take {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-act-take h3 {
+    margin-bottom: 10px;
+}
+
+.footer-act-give h3 {
+    margin-bottom: 10px;
+}
+
+@page {
+    size: A4 portrait;
+    margin: 20mm;
+}
+
+img,
+table {
+    page-break-inside: avoid;
+}
+
+.footer-act-pay-payment__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-act__payment-comment h3 {
+    margin-bottom: 10px;
+}
+.footer-act__payment-comment pre {
+    max-width: 500px;
+    white-space: pre-wrap;
+    margin: 0;
+}
+.footer-act__payment-comment--expenditure-invoice, .footer-act__payment-comment--acceptance-certificate {
+    flex: 0 0 100%;
+}
+.footer-act__payment-comment--expenditure-invoice pre, .footer-act__payment-comment--acceptance-certificate pre {
+    max-width: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

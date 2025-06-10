@@ -1,0 +1,43 @@
+.DocumentF0295611 * {
+    font-family: "Times New Roman", Times, serif;
+    border-collapse: collapse;
+    word-wrap: break-word;
+    word-break: keep-all;
+    font-weight: 400; }
+  
+  .DocumentF0295611 .which-statement {
+    margin-left: auto;
+    max-width: 300px;
+    margin-bottom: 20px; }
+  
+    table{
+      margin-bottom: 20px !important;
+    }
+  .DocumentF0295611 .section-choice__blocks {
+    display: flex;
+    gap: 30px; }
+  
+  .DocumentF0295611 .section-choice {
+    margin-bottom: 20px; }
+  
+  .DocumentF0295611 .doc__title-description-center-bold {
+    max-width: 80%;
+    margin: 20px auto;
+    font-weight: 700; }
+  
+  .DocumentF0295611 .certify-information {
+    display: flex;
+    flex-direction: column;
+    gap: 50px; }
+  
+  .DocumentF0295611 .certify-information__block {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between; }
+  
+  .DocumentF0295611 .boss {
+    flex-direction: column;
+    display: flex;
+    gap: 10px; }
+  

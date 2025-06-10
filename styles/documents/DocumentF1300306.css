@@ -1,0 +1,81 @@
+.document-container-f1300306 * {
+  font-family: "Times New Roman", Times, serif;
+  border-collapse: collapse;
+  word-wrap: break-word;
+  word-break: keep-all; }
+
+.document-container-f1300306 .statement-info {
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto; }
+
+.document-container-f1300306 .doc-info-about {
+  display: flex;
+  gap: 20px; }
+
+.document-container-f1300306 .text-date,
+.document-container-f1300306 .text-number {
+  display: flex;
+  gap: 10px; }
+
+.document-container-f1300306 .block-info,
+.document-container-f1300306 .info-payment,
+.document-container-f1300306 .doc-form-type,
+.document-container-f1300306 .block-info-bottom {
+  display: flex;
+  flex-direction: column; }
+
+.document-container-f1300306 .info-payment__code,
+.document-container-f1300306 .info-payment__name,
+.document-container-f1300306 .info-payment__adress {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between; }
+
+.document-container-f1300306 .info-payment__email-tel,
+.document-container-f1300306 .info-payment__email,
+.document-container-f1300306 .info-payment__tel {
+  display: flex;
+  gap: 20px; }
+
+.document-container-f1300306 .info-payment__email p,
+.document-container-f1300306 .info-payment__tel p {
+  width: 100%; }
+
+.document-container-f1300306 .choose-type-form-doc,
+.document-container-f1300306 .checkbox-type {
+  display: flex; }
+
+.document-container-f1300306 .choose-type-form-doc {
+  gap: 50px; }
+
+.document-container-f1300306 .checkbox-type {
+  gap: 10px; }
+
+.document-container-f1300306 .sign-post-name {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between; }
+
+.document-container-f1300306 .sign-post-block {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%; }
+
+.document-container-f1300306 .sign-empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: center; }
+
+.document-container-f1300306 .block-info-bottom {
+  gap: 10px; }
+
+.document-container-f1300306 .number-date {
+  display: flex;
+  max-width: 400px;
+  margin-left: auto; }
+
+.document-container-f1300306 .number-date p {
+  width: 100%; }

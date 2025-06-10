@@ -1,0 +1,39 @@
+.document-container-f1308001 * {
+    font-family: "Times New Roman", Times, serif;
+    border-collapse: collapse;
+    word-wrap: break-word;
+    word-break: keep-all;
+  }
+  .document-container-f1308001 table {
+    width: 100%;
+  }
+  .document-container-f1308001 .table table {
+    margin-bottom: 20px;
+  }
+  .document-container-f1308001 table th {
+    font-weight: 400;
+    text-align: start;
+  }
+  .document-container-f1308001 .statement-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    max-width: 300px;
+  }
+  .document-container-f1308001 .date-control__text {
+    max-width: 120px;
+  }
+  .document-container-f1308001 .comment {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .document-container-f1308001 .btn-delete-easy-line {
+    right: -28px;
+  }
+  .document-container-f1308001 table {
+    min-width: 350px;
+  }
+  .document-container-f1308001 .table-width-97 table {
+    max-width: 97%;
+  }

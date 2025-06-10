@@ -1,0 +1,219 @@
+.document-container-f1391802 * {
+  word-break: keep-all;
+  letter-spacing: 0 !important;
+  font-family: "Times New Roman" !important;
+  font-size: 14px;
+}
+.document-container-f1391802 * table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.document-container-f1391802 input:focus,
+.document-container-f1391802 button:focus,
+.document-container-f1391802 input[checkbox]:focus {
+  outline: 3px solid #55948f;
+  outline-offset: 2px;
+}
+
+.document-container-f1391802 input:focus,
+.document-container-f1391802 textarea:focus {
+  outline: 3px solid #55948f;
+}
+
+.document-container-f1391802 button:focus-visible {
+  outline: 3px dashed #55948f;
+}
+
+.document-container-f1391802 button:focus {
+  outline: none;
+  box-shadow: 0 0 5px 2px #55948f;
+}
+
+.document-container-f1391802 input[type="checkbox"]:focus + label {
+  outline: 3px solid #55948f;
+  outline-offset: 1px;
+}
+
+.document-container-f1391802 table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.document-container-f1391802 .input-width-button {
+  display: flex;
+  gap: 10px;
+}
+
+.document-container-f1391802 .signer {
+  display: flex;
+  flex-direction: column;
+}
+
+.document-container-f1391802 .signer-left {
+  margin-right: 50px;
+}
+
+.document-container-f1391802 .signer__blocks {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.document-container-f1391802 .signer-one,
+.document-container-f1391802 .signer-two,
+.document-container-f1391802 .signer-three {
+  display: flex;
+  gap: 20px;
+}
+
+.document-container-f1391802 .signer-min-width-text {
+  width: 100%;
+  min-width: 250px;
+  max-width: 250px;
+}
+
+.document-container-f1391802 .title-statement__date p {
+  display: flex;
+  gap: var(--gap-20);
+}
+
+.document-container-f1391802 .info__about-document {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  margin-left: auto;
+  margin-right: 0;
+  margin-bottom: 40px;
+}
+
+.document-container-f1391802 .title-statement {
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.document-container-f1391802 .title-statement__date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 10px auto;
+}
+
+.document-container-f1391802 .data__about-people h3 {
+  margin-bottom: 8px;
+}
+
+.document-container-f1391802 .signer-footer p {
+  margin-bottom: 5px;
+}
+
+.document-container-f1391802 .spec {
+  border: 1px solid #000;
+  width: 200px;
+  min-height: 20px;
+}
+
+.document-container-f1391802 .data__about-person {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.document-container-f1391802 .data-person__number {
+  display: flex;
+  gap: 40px;
+}
+
+.document-container-f1391802 .data-person__name {
+  display: flex;
+  gap: 40px;
+}
+
+.document-container-f1391802 .data-person__text-width {
+  width: 350px;
+}
+
+.document-container-f1391802 .data-person__number-input {
+  width: 100%;
+  max-width: 564px;
+  border: 1px solid #000;
+  text-align: center;
+  font-weight: 700;
+  height: 24px;
+}
+
+.document-container-f1391802 .data-person__name-input {
+  width: 100%;
+  max-width: 564px;
+  border: 1px solid #000;
+  text-align: center;
+  font-weight: 700;
+  height: 24px;
+}
+
+.document-container-f1391802 .data__about-people {
+  margin-bottom: 10px;
+}
+
+.document-container-f1391802 .data__about-people th {
+  border: 1px solid #000;
+  height: 20px;
+  font-weight: 400;
+}
+
+.document-container-f1391802 .signer__block {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.document-container-f1391802 .checked {
+  display: flex;
+  gap: 5px;
+}
+
+.document-container-f1391802 .signer-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.document-container-f1391802 .signer-footer__registration-number {
+  width: 270px;
+}
+
+.document-container-f1391802 .signer-footer__number-text {
+  text-align: center;
+  font-weight: 700;
+  border: 1px solid #000;
+}
+
+.document-container-f1391802 .signer-footer__registration-name {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  width: 420px;
+  text-align: center;
+}
+
+.document-container-f1391802 .signer-footer__registration-data {
+  text-align: center;
+  width: 130px;
+}
+
+.document-container-f1391802 .signer-footer__name-text,
+.document-container-f1391802 .signer-footer__registration-text {
+  margin-top: 10px;
+  border-bottom: 1px solid #000;
+  text-align: center;
+  font-weight: 700;
+}
+
+.document-container-f1391802 .css-1dimb5e-singleValue {
+  color: #000 !important;
+}
