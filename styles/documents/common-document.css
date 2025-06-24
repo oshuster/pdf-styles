@@ -1292,6 +1292,7 @@
 }
 
 .type-form .border-checkbox .icon-cross {
+  /* padding: 1px 4px 0;*/
   padding: 1px 4px 0;
   min-width: 22px;
   width: 22px;
