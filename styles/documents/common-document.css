@@ -86,7 +86,7 @@
 
 .type-form table th,
 .type-form table td {
-  height: 100%;
+  /* height: 100%;*/
 }
 
 .type-form .popup-custom__block {
