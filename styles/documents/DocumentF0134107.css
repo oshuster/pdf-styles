@@ -4,6 +4,7 @@
   padding: 0;
   letter-spacing: normal;
 }
+
 .document-container-F0134107 table td,
 .document-container-F0134107 table th {
   word-break: keep-all !important;
@@ -39,6 +40,8 @@
 
 .document-container-F0134107 .statement__period-specified {
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
   margin-top: 10px;
   margin-left: 20px;
 }
@@ -79,6 +82,7 @@
   margin-top: 10px;
   margin-left: 20px;
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
@@ -107,8 +111,9 @@
 
 .document-container-F0134107 .statement__type-form {
   margin-top: 4px;
-  display: flex;
-  justify-content: space-between;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
 }
 
 .document-container-F0134107 .statement__type-form sup {
@@ -132,7 +137,6 @@
 .document-container-F0134107 .statament__stop-table {
   display: flex;
   gap: 5px;
-  height: 24px;
 }
 
 .document-container-F0134107 .statement__kod {
@@ -148,6 +152,7 @@
 .document-container-F0134107 .statement__onsimplified-table {
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 
 .document-container-F0134107 .statement__kod-kategory {
@@ -160,7 +165,7 @@
 }
 
 .document-container-F0134107 .income-sum-max {
-  min-width: 280px;
+  min-width: 100px;
 }
 
 .document-container-F0134107 .statemetn-mistake__spesial {
@@ -171,7 +176,8 @@
 
 .document-container-F0134107 .statement-footer__sign-name {
   display: flex;
-  gap: 30px;
+  flex-direction: column;
+  width: 100%;
   margin-bottom: 30px;
   margin-top: 40px;
 }
