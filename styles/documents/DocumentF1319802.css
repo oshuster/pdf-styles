@@ -1,10 +1,50 @@
+.document-container-f1391802 * {
+  word-break: keep-all;
+  letter-spacing: 0 !important;
+  font-family: "Times New Roman" !important;
+  font-size: 14px;
+}
+
+.document-container-f1391802 * table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.document-container-f1391802 input:focus,
+.document-container-f1391802 button:focus,
+.document-container-f1391802 input[checkbox]:focus {
+  outline: 3px solid #55948f;
+  outline-offset: 2px;
+}
+
+.document-container-f1391802 input:focus,
+.document-container-f1391802 textarea:focus {
+  outline: 3px solid #55948f;
+}
+
+.document-container-f1391802 button:focus-visible {
+  outline: 3px dashed #55948f;
+}
+
+.document-container-f1391802 button:focus {
+  outline: none;
+  box-shadow: 0 0 5px 2px #55948f;
+}
+
+.document-container-f1391802 input[type="checkbox"]:focus + label {
+  outline: 3px solid #55948f;
+  outline-offset: 1px;
+}
+
+.document-container-f1391802 table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
 .document-container-f1391802 .input-width-button {
   display: flex;
   gap: 10px;
-}
-
-.document-container-f1391802 .input-100-procent-max-120 {
-  padding: 5px;
 }
 
 .document-container-f1391802 .signer {
@@ -14,10 +54,6 @@
 
 .document-container-f1391802 .signer-left {
   margin-right: 50px;
-}
-
-.document-container-f1391802 .doc__title h1 {
-  margin-bottom: 20px;
 }
 
 .document-container-f1391802 .signer__blocks {
@@ -30,9 +66,7 @@
 .document-container-f1391802 .signer-two,
 .document-container-f1391802 .signer-three {
   display: flex;
-  gap: 10px;
-  align-items: center;
-  margin-bottom: 5px;
+  gap: 20px;
 }
 
 .document-container-f1391802 .signer-min-width-text {
@@ -91,11 +125,14 @@
   margin-bottom: 10px;
 }
 
-.document-container-f1391802 .data-person__number,
+.document-container-f1391802 .data-person__number {
+  display: flex;
+  gap: 40px;
+}
+
 .document-container-f1391802 .data-person__name {
   display: flex;
-  justify-content: space-between;
-  gap: 20px;
+  gap: 40px;
 }
 
 .document-container-f1391802 .data-person__text-width {
@@ -140,23 +177,15 @@
 .document-container-f1391802 .checked {
   display: flex;
   gap: 5px;
-  align-items: center;
 }
 
 .document-container-f1391802 .signer-footer {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
 }
 
 .document-container-f1391802 .signer-footer__registration-number {
   width: 270px;
-}
-
-.document-container-f1391802 .signer-footer__registration-number,
-.document-container-f1391802 .signer-footer__registration-name {
-  width: 100%;
-  max-width: 500px;
 }
 
 .document-container-f1391802 .signer-footer__number-text {
@@ -169,13 +198,13 @@
   display: flex;
   flex-direction: column;
   font-weight: 700;
+  width: 420px;
   text-align: center;
 }
 
 .document-container-f1391802 .signer-footer__registration-data {
   text-align: center;
   width: 130px;
-  margin-left: auto;
 }
 
 .document-container-f1391802 .signer-footer__name-text,
