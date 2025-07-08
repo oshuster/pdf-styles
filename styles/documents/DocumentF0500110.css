@@ -15,14 +15,13 @@
   width: 10px;
 }
 
-.document-container-f0500110 .border-for-3-side-pdf {
-  border-top: 1px solid #000;
-  border-right: 1px solid #000;
-
-}
-
 .document-container-f0500110 .float-right {
   float: right;
+}
+
+.type-form .document-container-f0500110 .border-for-3-side-pdf {
+  border-top: 1px solid #000 !important;
+  border-right: 1px solid #000 !important;
 }
 
 .document-container-f0500110 .block-center.align-center {
