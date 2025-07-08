@@ -1,7 +1,7 @@
 .document-container-f0500110 .statement-period__flex-date {
   display: flex;
-  gap: 20px;
-  justify-content: space-between;
+  gap: 40px;
+  /* justify-content: space-between; */
 }
 
 .document-container-f0500110 .statement-document__number-katotg {
@@ -13,6 +13,12 @@
 
 .document-container-f0500110 .max-width-30 {
   width: 10px;
+}
+
+.document-container-f0500110 .border-for-3-side-pdf {
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+
 }
 
 .document-container-f0500110 .float-right {
