@@ -1,7 +1,36 @@
+/*NOT DELITE IF CHANGE THIS FILE*/
+
+.type-form .document-container-f0500110 .border-for-3-side-pdf {
+  border-top: 1px solid #000 !important;
+  border-right: 1px solid #000 !important;
+}
+
+.type-form .document-container-f0500110 .border-for-right-side-pdf {
+  border-right: 1px solid #000 !important;
+}
+
+.type-form .document-container-f0500110 .border-for-bottom-side-pdf {
+  border-bottom: 1px solid #000 !important;
+}
+
+.align-block-center {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/*NOT DELITE IF CHANGE THIS FILE*/
+
+
+
+
+
+
 .document-container-f0500110 .statement-period__flex-date {
   display: flex;
   gap: 40px;
-  /* justify-content: space-between; */
+  justify-content: center;
+
 }
 
 .document-container-f0500110 .statement-document__number-katotg {
@@ -19,18 +48,7 @@
   float: right;
 }
 
-.type-form .document-container-f0500110 .border-for-3-side-pdf {
-  border-top: 1px solid #000 !important;
-  border-right: 1px solid #000 !important;
-}
 
-.type-form .document-container-f0500110 .border-for-right-side-pdf {
-  border-right: 1px solid #000 !important;
-}
-
-.type-form .document-container-f0500110 .border-for-bottom-side-pdf {
-  border-bottom: 1px solid #000 !important;
-}
 
 .document-container-f0500110 .block-center.align-center {
   display: flex;
