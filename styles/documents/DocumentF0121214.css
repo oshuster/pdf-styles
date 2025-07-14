@@ -80,8 +80,7 @@
 
 .document-container-f0121214 table {
   border: 1px solid #000;
-  max-width: 95%;
-  min-width: 600px;
+
 }
 
 .document-container-f0121214 table th {
@@ -173,4 +172,8 @@
 
 .document-container-f0121214 .width-160 {
   width: 160px;
+}
+
+.document-container-f0121214 .mb-10 {
+  margin-bottom: 10px;
 }
