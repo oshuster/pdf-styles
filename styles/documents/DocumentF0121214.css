@@ -1,179 +1,176 @@
-.document-container-f0121214 {
-    * {
-      font-family: "Times New Roman";
-      letter-spacing: 0 !important;
-      color: #000 !important;
-    }
-  
-    .header {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 40px;
-    }
-  
-    .seal-date {
-      border: 1px solid #000;
-      width: 350px;
-      padding-top: 20px;
-      text-align: center;
-    }
-  
-    .header-info {
-      width: 240px;
-      margin-right: 20px;
-      margin-left: 20px;
-    }
-  
-    .statement-title {
-      width: 80%;
-      margin: 0 auto;
-      text-align: center;
-      margin-bottom: 20px;
-    }
-  
-    .registration-number {
-      line-height: 20px;
-      border: 1px solid #000;
-    }
-  
-    .naming__block-float {
-      padding: 5px;
-    }
-  
-    .naming__number-input {
-      display: inline-block;
-      min-width: 350px;
-      text-align: center;
-      border: 1px solid #000;
-      margin-top: 5px;
-      min-height: 20px;
-      float: right;
-    }
-  
-    .type-declaration__block {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .type-declaration__blocks {
-      display: flex;
-      gap: 10px;
-    }
-  
-    .type-declaration {
-      display: flex;
-      gap: 20px;
-      flex-wrap: wrap;
-      margin-top: 10px;
-      border-top: 1px solid #000;
-      justify-content: space-between;
-      padding: 10px;
-      border: 1px solid #000;
-    }
-  
-    .type-declaration__blocks-checkes {
-      display: flex;
-      gap: 5px;
-    }
-  
-    .type-declaration__flex-sence {
-      display: flex;
-      gap: 30px;
-    }
-  
-    table {
-      border: 1px solid #000;
-      max-width: 97%;
-      min-width: 600px;
-    }
-  
-    table th {
-      font-weight: 400;
-      word-wrap: wrap;
-      word-break: keep-all;
-    }
-  
-    th {
-      border: 1px solid #000;
-    }
-  
-    .type-declaration__blocks-input {
-      border: 1px solid #000;
-      min-width: 140px;
-      text-align: center;
-    }
-  
-    .type-declaration__blocks-checkes p {
-      margin-top: 5px;
-    }
-  
-    .type-declaration__block h4 {
-      margin-bottom: 5px;
-    }
-  
-    .title-medium {
-      text-align: center;
-      padding: 5px;
-    }
-  
-    .list-operation__line {
-      margin-top: 20px;
-      width: 80px;
-      border-bottom: 2px solid #000;
-    }
-  
-    .list-operation__blocks {
-      display: flex;
-      gap: var(--gap-20);
-      margin-bottom: 5px;
-    }
-  
-    .list-operation__block h5 {
-      width: 240px;
-      font-weight: 700;
-    }
-  
-    .list-operation {
-      margin-bottom: 20px;
-    }
-  
-    .sign {
-      text-align: center;
-      display: flex;
-      justify-content: space-between;
-    }
-  
-    .sign h4 {
-      width: 250px;
-    }
-  
-    .sign__input-sign {
-      width: 130px;
-      border-bottom: 1px solid #000;
-      min-height: 20px;
-    }
-  
-    .sign__input-name {
-      width: 390px;
-      border-bottom: 1px solid #000;
-      min-height: 20px;
-    }
-  
-    .registration-number,
-    .type-declaration {
-      margin-bottom: 30px;
-    }
-  
-    .width-60 {
-      width: 60px;
-    }
-  
-    .width-160 {
-      width: 160px;
-    }
-  
-    .mb-20 {
-      margin-bottom: 23px;
-    }
-  }
-  
+.document-container-f0121214 * {
+  font-family: "Times New Roman";
+  letter-spacing: 0 !important;
+  color: #000;
+}
+
+.document-container-f0121214 .header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.document-container-f0121214 .seal-date {
+  border: 1px solid #000;
+  width: 350px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.document-container-f0121214 .header-info {
+  width: 240px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.document-container-f0121214 .statement-title {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.document-container-f0121214 .registration-number {
+  line-height: 20px;
+  border: 1px solid #000;
+}
+
+.document-container-f0121214 .naming__block-float {
+  padding: 5px;
+}
+
+.document-container-f0121214 .naming__number-input {
+  display: inline-block;
+  min-width: 250px;
+  margin-left: 20px;
+  text-align: center;
+  border: 1px solid #000;
+  margin-top: 5px;
+  min-height: 20px;
+  float: right;
+}
+
+.document-container-f0121214 .type-declaration__block {
+  display: flex;
+  flex-direction: column;
+}
+
+.document-container-f0121214 .type-declaration__blocks {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.document-container-f0121214 .type-declaration {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.document-container-f0121214 .type-declaration__blocks-checkes {
+  display: flex;
+  gap: 5px;
+}
+
+.document-container-f0121214 .type-declaration__flex-sence {
+  display: flex;
+  gap: 30px;
+}
+
+.document-container-f0121214 table {
+  border: 1px solid #000;
+  max-width: 95%;
+  min-width: 600px;
+}
+
+.document-container-f0121214 table th {
+  font-weight: 400;
+  word-wrap: wrap;
+  word-break: keep-all;
+}
+
+.document-container-f0121214 th {
+  border: 1px solid #000;
+}
+
+.document-container-f0121214 .type-declaration {
+  margin-top: 10px;
+  border-top: 1px solid #000;
+  justify-content: space-between;
+  display: flex;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.document-container-f0121214 .type-declaration__blocks-input {
+  border: 1px solid #000;
+  width: 120px;
+  text-align: center;
+}
+
+.document-container-f0121214 .type-declaration__blocks-checkes {
+  align-items: center;
+}
+
+.document-container-f0121214 .type-declaration__block h4 {
+  margin-bottom: 5px;
+}
+
+.document-container-f0121214 .title-medium {
+  text-align: center;
+  padding: 5px;
+}
+
+.document-container-f0121214 .list-operation__line {
+  margin-top: 20px;
+  width: 80px;
+}
+
+.document-container-f0121214 .list-operation__blocks {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 5px;
+}
+
+.document-container-f0121214 .list-operation__block h5 {
+  width: 240px;
+  font-weight: 700;
+}
+
+.document-container-f0121214 .list-operation {
+  margin-bottom: 20px;
+}
+
+.document-container-f0121214 .sign {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.document-container-f0121214 .sign__input-sign {
+  width: 130px;
+  border-bottom: 1px solid #000;
+  min-height: 20px;
+}
+
+.document-container-f0121214 .sign__input-name {
+  width: 390px;
+  border-bottom: 1px solid #000;
+  min-height: 20px;
+}
+
+.document-container-f0121214 .registration-number,
+.document-container-f0121214 .type-declaration {
+  margin-bottom: 30px;
+}
+
+.document-container-f0121214 .width-60 {
+  width: 60px;
+}
+
+.document-container-f0121214 .width-160 {
+  width: 160px;
+}
