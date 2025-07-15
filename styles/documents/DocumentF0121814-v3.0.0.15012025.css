@@ -1,25 +1,35 @@
 .document-container-f0121814 * {
   border-collapse: collapse;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
+
 .document-container-f0121814 table th {
   font-weight: 400;
   word-wrap: wrap;
   word-break: keep-all;
 }
+
+.document-container-f0121814 sup {
+  font-size: 12px;
+}
+
 .document-container-f0121814 .header {
   display: flex;
   gap: 10px;
   justify-content: space-between;
 }
+
 .document-container-f0121814 .header-info__block-number {
   display: flex;
+  align-items: center;
   gap: 10px;
 }
+
 .document-container-f0121814 .header-info {
   max-width: 350px;
   padding: 10px;
 }
+
 .document-container-f0121814 .naming__number-input {
   display: inline-block;
   min-width: 150px;
@@ -30,24 +40,30 @@
   line-height: 150%;
   min-height: 20px;
 }
+
 .document-container-f0121814 .type-declaration {
   display: flex;
+  flex-direction: column;
   width: 100%;
-  gap: 20px;
+  gap: 5px;
   justify-content: space-between;
   border-bottom: 1px solid #000;
 }
+
 .document-container-f0121814 .type-declaration__block {
   padding: 10px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+
 .document-container-f0121814 .type-declaration__blocks,
 .document-container-f0121814 .type-declaration__blocks-checkes {
   display: flex;
   gap: 10px;
+  align-items: center;
 }
+
 .document-container-f0121814 .type-declaration__blocks-input,
 .document-container-f0121814 .foreign-company__block-input {
   min-width: 100px;
@@ -55,58 +71,74 @@
   border: 1px solid #000;
   min-height: 20px;
 }
+
 .document-container-f0121814 .foreign-company {
   padding: 10px;
 }
+
 .document-container-f0121814 .foreign-company__border-small {
   min-width: 40px;
   max-width: 100px;
   border: 1px solid #000;
   min-height: 20px;
 }
+
 .document-container-f0121814 .foreign-company__block {
   display: flex;
   flex-direction: column;
   width: 100%;
   gap: 10px;
 }
+
 .document-container-f0121814 .foreign-company__block-flex {
   display: flex;
   gap: 20px;
 }
+
 .document-container-f0121814 .foreign-company__blocks {
   width: 44%;
 }
+
 .document-container-f0121814 .type-declaration__block-flex {
   display: flex;
 }
+
 .document-container-f0121814 table {
   padding-bottom: 10px;
   margin-bottom: 20px;
   min-width: 600px;
 }
+
 .document-container-f0121814 .foreign-company__block-input,
 .document-container-f0121814 .foreign-company__block-border {
   max-width: 800px;
   border: 1px solid #000;
 }
+
 .document-container-f0121814 .foreign-company__writer {
   display: flex;
   justify-content: space-between;
 }
+
 .document-container-f0121814 .sign {
   display: flex;
   gap: 20px;
   justify-content: space-between;
 }
+
 .document-container-f0121814 .sign__input-sign,
 .document-container-f0121814 .sign__input-name {
-  height: 20px;
   border-bottom: 1px solid #000;
 }
+
 .document-container-f0121814 .sign__input-name {
   min-width: 300px;
 }
+
 .document-container-f0121814 .sign__block-name {
   text-align: center;
+}
+
+.document-container-f0121814 .gap-block-top {
+  margin-top: 20px;
 }

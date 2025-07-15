@@ -8,6 +8,7 @@
   font-family: "Times New Roman" !important;
   font-size: 14px;
 }
+
 .document-container-f1312007 * table {
   width: 100%;
   border-collapse: collapse;
@@ -29,6 +30,10 @@
   margin: 0 auto;
   text-align: center;
   margin-bottom: 10px;
+}
+
+.document-container-f1312007 .statement__title h2 {
+  margin-bottom: 20px;
 }
 
 .document-container-f1312007 .title-span {
@@ -121,7 +126,6 @@
 .document-container-f1312007 .agent__name-input {
   border-bottom: 1px solid #000;
   min-height: 20px;
-  padding-bottom: 5px;
   font-weight: 700;
 }
 
