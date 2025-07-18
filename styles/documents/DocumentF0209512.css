@@ -1,24 +1,36 @@
 .document-container-f0209512 table {
   width: 100%;
   margin-bottom: 20px;
-  min-width: 500px; }
+}
 
 .document-container-f0209512 table th {
-  font-weight: 400; }
+  font-weight: 400;
+}
 
 .document-container-f0209512 .document-info__top {
   text-align: end;
   max-width: 280px;
-  margin-left: auto; }
+  margin-left: auto;
+}
 
 .document-container-f0209512 .note-obsession {
   padding: 20px;
-  max-width: 300px; }
+  max-width: 300px;
+}
+
+.document-container-f0209512 .for-btn-center .popup-custom__block {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding-right: 5px;
+}
 
 .document-container-f0209512 .date-send-flex {
   display: flex;
   flex-direction: row;
-  align-items: end; }
+  align-items: end;
+  align-items: center;
+}
 
 .document-container-f0209512 .certify-boss,
 .document-container-f0209512 .certify-accounting {
@@ -26,32 +38,56 @@
   gap: 20px;
   justify-content: space-between;
   align-items: center;
-  text-align: center; }
+  text-align: center;
+}
 
 .document-container-f0209512 .certify-boss-name {
-  padding-top: 25px; }
+  padding-top: 25px;
+  width: 50%;
+}
 
-.document-container-f0209512 .sign-date {
-  width: 100%;
+.document-container-f0209512 .certify-boss-preview {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.document-container-f0209512 .certify-boss-preview__flex {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px; }
+}
+
+.document-container-f0209512 .sign-date {
+  display: flex;
+  justify-content: end;
+  gap: 50px;
+  margin-top: 20px;
+}
 
 .document-container-f0209512 .year {
-  display: flex; }
+  display: flex;
+}
 
 .document-container-f0209512 .year-day {
   width: 20px;
   border-bottom: 1px solid #000;
-  height: 20px; }
+  height: 20px;
+}
 
 .document-container-f0209512 .year-month {
   width: 100px;
   border-bottom: 1px solid #000;
-  height: 20px; }
+  height: 20px;
+}
 
 .document-container-f0209512 .year-years {
   margin-left: 10px;
   width: 40px;
   border-bottom: 1px solid #000;
-  height: 20px; }
+  height: 20px;
+}
+
+
+
+.type-form .f0209512-preview .table table th {
+  height: 25px !important;
+}
