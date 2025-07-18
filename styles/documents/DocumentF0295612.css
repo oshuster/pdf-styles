@@ -2,48 +2,61 @@
   font-family: "Times New Roman", Times, serif;
   border-collapse: collapse;
   word-wrap: break-word;
-  word-break: keep-all; }
+  word-break: keep-all;
+}
 
 .DocumentF0295612 .table th {
-  font-weight: 400; }
+  font-weight: 400;
+}
 
 .DocumentF0295612 .which-statement {
   margin-left: auto;
   max-width: 300px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 .DocumentF0295612 .section-choice__blocks {
   display: flex;
-  gap: 30px; }
+  gap: 30px;
+}
 
 .DocumentF0295612 .section-choice {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 .DocumentF0295612 .doc__title-description-center-bold {
   max-width: 80%;
   margin: 20px auto;
-  font-weight: 700; }
+  font-weight: 700;
+}
 
 .DocumentF0295612 .certify-information {
   display: flex;
   flex-direction: column;
-  gap: 20px; }
+  gap: 20px;
+}
 
 .DocumentF0295612 .certify-information__block {
   display: flex;
   gap: 20px;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
+
+.DocumentF0295612 .certify-information__name {
+  width: 100%;
+  max-width: 50%;
+}
 
 .DocumentF0295612 .boss {
   flex-direction: column;
   display: flex;
-  gap: 10px; }
+  gap: 10px;
+}
 
 .DocumentF0295612 .sign-date {
-  width: 100%;
   display: flex;
-  justify-content: space-between;
-  margin-top: 20px; }
-
-
+  gap: 50px;
+  justify-content: end;
+  margin-top: 20px;
+}
