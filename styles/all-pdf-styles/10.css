@@ -1,10 +1,7 @@
-html {
-  box-sizing: border-box;
-}
 *,
-*::after,
-*::before {
-  box-sizing: inherit;
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body,
@@ -15,121 +12,271 @@ h4,
 h5,
 h6,
 p,
-ul[class],
-ol[class],
-li,
 figure,
-figcaption,
 blockquote,
 dl,
 dd {
   margin: 0;
 }
 
-table {
-  margin: 0;
+ul[class],
+ol[class] {
   padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: none;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+table {
+  border-collapse: collapse;
   border-spacing: 0;
-  border-collapse: collapse;
 }
 
-.income-pdf {
-  width: 600px;
-  margin: 20px auto;
-  text-align: center;
-  font-size: 16px;
+
+
+.body__container {
   display: flex;
   flex-direction: column;
-  font-family: "Times New Roman", serif;
-  color: #000;
-  gap: 20px;
-}
-
-.income-pdf img {
-  height: 100px;
-  margin-right: 20px;
-}
-
-.income-section {
-  padding-left: 30px;
-  margin-bottom: 25px;
-}
-
-.income-payer {
-  text-align: left;
-}
-
-.income-payer p {
-  font-style: italic;
-  font-size: 19px;
-}
-
-.income-payer h2 {
-  font-size: 19px;
-}
-
-.income-pdf table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.income-pdf tfoot td {
-  text-align: right;
-}
-
-.income-pdf th,
-.income-pdf td {
-  text-align: center;
-  border: 4px inset #dadada7c;
-}
-
-.income-pdf th {
-  font-weight: bold;
-  color: #333;
-}
-
-.income-pdf thead tr {
-  height: 50px; /* Висота рядків заголовка */
-}
-
-.income-pdf tbody tr {
-  height: 30px; /* Висота рядків тіла таблиці */
-}
-
-.income-pdf .table-cell--highlight {
-  color: #333;
-  font-weight: bold;
-}
-
-h1 {
-  font-size: 17px;
+  justify-content: space-between;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-style: italic;
-  max-width: 55%;
-  padding-left: 30px;
-  text-align: justify;
+  font-size: 14px;
+  line-height: 143%;
+  padding: 52px 40px 0;
+  width: 720px;
+  min-height: 297mm;
+  background: #ffffff;
+  margin: 20px auto;
+  border: 1px solid #ccc;
 }
 
-.income-payer__table-title {
-  font-weight: bold;
-  font-size: 18px;
+
+/*-----------HEADER-START------------*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 52px;
 }
 
-.income-payer___footer {
+.header__title-top {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  gap: 4px;
 }
 
-.income-pdf__currency {
-  text-align: right;
-  margin-bottom: 40px;
-  font-style: italic;
+.header__title-doc {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: #252d3d;
 }
 
-.income-pdf__sign {
-  text-align: right;
-  border-top: 1px solid #000000;
-  width: 120px;
-  font-style: italic;
+.header__date {
+  color: #6e809a;
 }
+
+.header__img {
+  width: 182px;
+  height: 40px;
+}
+
+
+/*-----------HEADER-END------------*/
+
+
+
+/*-----------MAIN-START------------*/
+
+.main {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #e2e9f3;
+  height: 100%;
+  margin-bottom: 50px;
+}
+
+.info__block-line {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.info__title-block {
+  display: flex;
+  gap: 12px;
+  min-width: 360px;
+  max-width: 360px;
+}
+
+.info__img {
+  width: 20px;
+  height: 20px;
+}
+
+.info__title-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  color: #252d3d;
+}
+
+.info__status-price {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  min-width: 320px;
+  max-width: 320px;
+}
+
+.info__status {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #252d3d;
+}
+
+.info__var-price,
+.info__text-bottom {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 114%;
+  color: #6e809a;
+}
+
+.grid-banks {
+  display: grid;
+  grid-template-columns: 360px 320px;
+  gap: 16px;
+  margin-bottom: 12px;
+
+}
+
+.grid-banks__block {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.grid-banks__name-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 114%;
+  color: #6e809a;
+}
+
+.grid-banks__iban {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #252d3d;
+}
+
+.line-text {
+  text-align: center;
+  color: #9aaabf;
+  border-bottom: 1px solid #e2e9f3;
+  padding-bottom: 20px;
+}
+
+
+
+
+/*-----------MAIN-END------------*/
+
+
+/*-----------FOOTER-START------------*/
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  margin-top: auto;
+
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  max-width: 320px;
+  border-right: 1px solid #e2e9f3;
+}
+
+.question__title,
+.number-phone__title {
+  font-weight: 500;
+  color: #252d3d;
+  margin-bottom: 8px;
+}
+
+.question__block {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 2px;
+}
+
+.question__email-title,
+.question__telegram-title {
+  min-width: 64px !important;
+  font-weight: 500;
+  color: #6e809a;
+}
+
+.question__telegram-text,
+.question__email-text {
+  color: #6e809a;
+}
+
+.number-phone__grid-number {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 4px 16px;
+}
+
+.number-phone__number {
+  color: #6e809a;
+}
+
+.footer {
+  padding: 8px 10px;
+  background: #f5f9ff;
+  width: calc(100% + 80px);
+  margin-left: -40px;
+}
+
+
+.footer__text-bottom {
+  font-size: 12px;
+  color: #9aaabf;
+  text-align: center;
+
+}
+
+
+
+
+/*-----------FOOTER-END------------*/
