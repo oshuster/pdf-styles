@@ -82,7 +82,7 @@ table {
 }
 
 .header__title-doc {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 20px;
   line-height: 120%;
   color: #252d3d;
@@ -128,7 +128,7 @@ table {
 }
 
 .info__title-text {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   line-height: 125%;
   color: #252d3d;
@@ -212,7 +212,7 @@ table {
 
 .question__title,
 .number-phone__title {
-  font-weight: 500;
+  font-weight: 700;
   color: #252d3d;
   margin-bottom: 8px;
 }
@@ -226,7 +226,7 @@ table {
 .question__email-title,
 .question__telegram-title {
   min-width: 64px !important;
-  font-weight: 500;
+  font-weight: 700;
   color: #6e809a;
 }
 
@@ -244,13 +244,6 @@ table {
 .number-phone__number {
   color: #6e809a;
 }
-
-/* .footer {
-  padding: 8px 10px;
-  background: #f5f9ff;
-  width: calc(100% + 80px);
-  margin-left: -40px;
-} */
 
 .footer {
   padding: 8px 10px;
