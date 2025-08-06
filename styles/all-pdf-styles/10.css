@@ -245,11 +245,18 @@ table {
   color: #6e809a;
 }
 
-.footer {
+/* .footer {
   padding: 8px 10px;
   background: #f5f9ff;
   width: calc(100% + 80px);
   margin-left: -40px;
+} */
+
+.footer {
+  padding: 8px 10px;
+  background: #f5f9ff;
+  width: calc(100% + 120px);
+  margin-left: -60px;
 }
 
 .footer__text-bottom {
