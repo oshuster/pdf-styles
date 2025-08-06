@@ -37,7 +37,7 @@ a {
 img,
 svg {
   display: block;
-  max-width: 100%;
+  object-fit: contain;
   height: auto;
   border: none;
 }
@@ -82,7 +82,7 @@ table {
 }
 
 .header__title-doc {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 20px;
   line-height: 120%;
   color: #252d3d;
@@ -93,8 +93,8 @@ table {
 }
 
 .header__img {
-  width: 182px;
-  height: 40px;
+  max-width: 182px;
+  max-height: 40px;
 }
 
 /*-----------HEADER-END------------*/
@@ -128,7 +128,7 @@ table {
 }
 
 .info__title-text {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
   line-height: 125%;
   color: #252d3d;
@@ -226,7 +226,7 @@ table {
 .question__email-title,
 .question__telegram-title {
   min-width: 64px !important;
-  font-weight: 700;
+  font-weight: 600;
   color: #6e809a;
 }
 
