@@ -142,8 +142,8 @@ table {
 .info__title-block {
   display: flex;
   gap: 12px;
-  min-width: 360px;
-  max-width: 360px;
+  min-width: 50%;
+  max-width: 50%;
 }
 
 .info__img {
@@ -221,7 +221,7 @@ table {
 
 .footer-top {
   display: flex;
-  justify-content: space-between;
+  gap: 100px;
   margin-bottom: 24px;
   margin-top: auto;
 }
@@ -229,8 +229,8 @@ table {
 .question {
   display: flex;
   flex-direction: column;
-  min-width: 320px;
-  max-width: 320px;
+  min-width: 360px;
+  max-width: 360px;
   border-right: 1px solid #e2e9f3;
 }
 
