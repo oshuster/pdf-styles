@@ -61,6 +61,7 @@ table {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
+  padding: 40px;
   height: 100%;
   line-height: 143%;
   background: #ffffff;
@@ -183,7 +184,7 @@ table {
 
 .grid-banks {
   display: grid;
-  grid-template-columns: 360px 320px;
+  grid-template-columns: 50% 320px;
   gap: 16px;
   margin-bottom: 12px;
 }
