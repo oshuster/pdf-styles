@@ -37,7 +37,7 @@ a {
 img,
 svg {
   display: block;
-  object-fit: contain;
+  max-width: 100%;
   height: auto;
   border: none;
 }
@@ -54,18 +54,25 @@ table {
   border-spacing: 0;
 }
 
+
+
 .body__container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
-  padding: 40px;
-  height: 100%;
   line-height: 143%;
+  padding: 52px 40px 0;
+  width: 720px;
+  min-height: 297mm;
   background: #ffffff;
+  margin: 20px auto;
+  border: 1px solid #ccc;
 }
+
 
 /*-----------HEADER-START------------*/
 
@@ -82,7 +89,7 @@ table {
 }
 
 .header__title-doc {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   color: #252d3d;
@@ -93,36 +100,14 @@ table {
 }
 
 .header__img {
-  max-width: 182px;
-  max-height: 40px;
+  width: 182px;
+  height: 40px;
 }
+
 
 /*-----------HEADER-END------------*/
 
-/*-----------INFO-Person-START------------*/
-.info-person{
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  margin-bottom: 10px;
-}
-.info-person__who{
-  font-weight: 500;
-   color: #252d3d;
-}
-.info-person__block-id{
-  display: flex;
-  gap: 4px;
-}
-.info-person__text{
-  color: rgba(110, 128, 154, 1);
-}
-.info-person__number-id{
-  font-weight: 500;
-   color: rgba(110, 128, 154, 1);
-}
 
-/*-----------INFO-Person-END------------*/
 
 /*-----------MAIN-START------------*/
 
@@ -143,8 +128,8 @@ table {
 .info__title-block {
   display: flex;
   gap: 12px;
-  min-width: 50%;
-  max-width: 50%;
+  min-width: 360px;
+  max-width: 360px;
 }
 
 .info__img {
@@ -153,7 +138,7 @@ table {
 }
 
 .info__title-text {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 125%;
   color: #252d3d;
@@ -184,9 +169,10 @@ table {
 
 .grid-banks {
   display: grid;
-  grid-template-columns: 50% 320px;
+  grid-template-columns: 360px 320px;
   gap: 16px;
   margin-bottom: 12px;
+
 }
 
 .grid-banks__block {
@@ -216,28 +202,33 @@ table {
   padding-bottom: 20px;
 }
 
+
+
+
 /*-----------MAIN-END------------*/
+
 
 /*-----------FOOTER-START------------*/
 
 .footer-top {
   display: flex;
-  gap: 100px;
+  justify-content: space-between;
   margin-bottom: 24px;
   margin-top: auto;
+
 }
 
 .question {
   display: flex;
   flex-direction: column;
-  min-width: 360px;
-  max-width: 360px;
+  min-width: 320px;
+  max-width: 320px;
   border-right: 1px solid #e2e9f3;
 }
 
 .question__title,
 .number-phone__title {
-  font-weight: 700;
+  font-weight: 500;
   color: #252d3d;
   margin-bottom: 8px;
 }
@@ -251,7 +242,7 @@ table {
 .question__email-title,
 .question__telegram-title {
   min-width: 64px !important;
-  font-weight: 600;
+  font-weight: 500;
   color: #6e809a;
 }
 
@@ -273,14 +264,19 @@ table {
 .footer {
   padding: 8px 10px;
   background: #f5f9ff;
-  width: calc(100% + 160px);
-  margin-left: -80px;
+  width: calc(100% + 80px);
+  margin-left: -40px;
 }
+
 
 .footer__text-bottom {
   font-size: 12px;
   color: #9aaabf;
   text-align: center;
+
 }
+
+
+
 
 /*-----------FOOTER-END------------*/
