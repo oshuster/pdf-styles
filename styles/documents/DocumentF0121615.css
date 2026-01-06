@@ -1,0 +1,115 @@
+.document-container-f0121615 * {
+  border-collapse: collapse;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.document-container-f0121615 table th {
+  font-weight: 400;
+  word-wrap: wrap;
+  word-break: keep-all;
+}
+
+.document-container-f0121615 table {
+  width: 100%;
+}
+
+.document-container-f0121615 .header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.document-container-f0121615 .header-info {
+  max-width: 350px;
+  padding: 15px;
+}
+
+.document-container-f0121615 .naming__number-input {
+  display: inline-block;
+  min-width: 150px;
+  text-align: center;
+  border: 1px solid #000;
+  margin-top: 5px;
+  float: right;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.document-container-f0121615 .registration-number {
+  padding: 10px;
+  border-top: 1px solid #000;
+  line-height: 140%;
+}
+
+.document-container-f0121615 .type-declaration__blocks,
+.document-container-f0121615 .type-declaration__blocks-checkes {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.document-container-f0121615 .type-declaration__blocks {
+  gap: 20px;
+}
+
+.document-container-f0121615 .type-declaration {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 10px;
+  border-top: 1px solid #000;
+}
+
+.document-container-f0121615 .type-declaration__block-period {
+  display: flex;
+  gap: 30px;
+}
+
+.document-container-f0121615 .type-declaration__block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.document-container-f0121615 .type-declaration__blocks-input {
+  border: 1px solid #000;
+  max-width: 100px;
+  min-width: 100px;
+  font-weight: 700;
+}
+
+.document-container-f0121615 .sign {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.document-container-f0121615 .ml-auto {
+  display: flex;
+  margin-left: auto;
+  justify-content: end;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+.document-container-f0121615 .sign__input-sign {
+  height: 20px;
+  border-bottom: 1px solid #000;
+}
+
+.document-container-f0121615 .sign__block-name {
+  max-width: 350px;
+  text-align: center;
+}
+
+.document-container-f0121615 .sign__input-name {
+  width: 100%;
+  width: 350px;
+  border-bottom: 1px solid #000;
+}
+
+.document-container-f0121615 .sign__block-sign {
+  max-width: 100px;
+  text-align: center;
+}
