@@ -1,0 +1,172 @@
+.document-container-f0121415 {
+    * {
+      border-collapse: collapse;
+      font-family: 'Times New Roman', Times, serif;
+    }
+  
+    table {
+      min-width: 500px;
+    }
+  
+    table th {
+      font-weight: 400;
+    }
+  
+    .header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+  
+    .header-info {
+      padding: 10px;
+    }
+  
+    .statement-title {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+      padding: 10px;
+      border-bottom: 1px solid #000;
+      border-top: 1px solid #000;
+    }
+  
+    .naming__number-input {
+      display: inline-block;
+      min-width: 150px;
+      text-align: center;
+      border: 1px solid #000;
+      margin-top: 5px;
+      min-height: 20px;
+      padding: 5px;
+      float: right;
+    }
+  
+    .registration-number {
+      padding: 10px;
+      line-height: 150%;
+      border-bottom: 1px solid #000;
+    }
+  
+    .type-declaration__blocks-checkes,
+    .type-declaration__blocks {
+      display: flex;
+      gap: 10px;
+    }
+  
+    .type-declaration {
+      display: flex;
+      gap: 20px;
+      justify-content: space-between;
+      padding: 10px;
+      border-bottom: 1px solid #000;
+    }
+  
+    .type-declaration__block-bottom {
+      display: flex;
+      gap: 100px;
+    }
+  
+    .type-declaration__block {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .type-declaration__blocks-input {
+      max-width: 100px;
+      pad: 5px;
+      text-align: center;
+      min-width: 100px;
+      border: 1px solid #000;
+    }
+  
+    .month-for-period {
+      display: flex;
+      gap: 70px;
+      padding: 10px;
+    }
+  
+    .month__block {
+      display: flex;
+      gap: 5px;
+    }
+  
+    .month__block-input {
+      max-width: 100px;
+      pad: 5px;
+      text-align: center;
+      min-width: 100px;
+      border: 1px solid #000;
+    }
+  
+    .doc__title-description-center-bold {
+      border: 1px solid #000;
+      border-bottom: none;
+      margin-top: 10px;
+      padding: 10px 0;
+    }
+  
+    .income-table table th,
+    .table-info table th,
+    .tax-obligations table th,
+    .proffecional-activity table th,
+    .calculation-table table th {
+      word-wrap: wrap;
+      word-break: keep-all;
+    }
+  
+    .income-table {
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .table-info table,
+    .tax-obligations table,
+    .proffecional-activity table,
+    .calculation-table table {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .table-info,
+    .tax-obligations,
+    .proffecional-activity,
+    .calculation-table {
+      margin-bottom: 20px;
+    }
+  
+    .comment {
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #000;
+    }
+  
+    .comment-two__line {
+      width: 80px;
+      border-bottom: 1px solid #000;
+      margin-top: 20px;
+    }
+  
+    .sign {
+      display: flex;
+      gap: 30px;
+      margin-top: 20px;
+    }
+  
+    .sign__input-name {
+      width: 300px;
+      border-bottom: 1px solid #000;
+    }
+  
+    .sign__block-name {
+      text-align: center;
+    }
+  
+    .sign__input-sign {
+      height: 20px;
+      border-bottom: 1px solid #000;
+    }
+  }
+  
