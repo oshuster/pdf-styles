@@ -52,13 +52,3 @@
   justify-content: end;
   margin-top: 20px; }
 
-@media (max-width: 900px) {
-  .DocumentF0298714 .certify-information__block {
-    flex-direction: column;
-    align-items: start; }
-  .DocumentF0298714 .certify-information__block {
-    flex-wrap: wrap; }
-  .DocumentF0298714 .boss.max-width-300 {
-    max-width: 350px; }
-  .DocumentF0298714 .certify-information__name {
-    max-width: 350px; } }
