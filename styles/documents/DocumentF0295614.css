@@ -1,0 +1,51 @@
+.DocumentF0295613 * {
+  font-family: "Times New Roman", Times, serif;
+  border-collapse: collapse;
+  word-wrap: break-word;
+  word-break: keep-all; }
+
+.DocumentF0295613 .table th {
+  font-weight: 400; }
+
+.DocumentF0295613 .which-statement {
+  margin-left: auto;
+  max-width: 300px;
+  margin-bottom: 20px; }
+
+.DocumentF0295613 .section-choice__blocks {
+  display: flex;
+  gap: 30px; }
+
+.DocumentF0295613 .section-choice {
+  margin-bottom: 20px; }
+
+.DocumentF0295613 .doc__title-description-center-bold {
+  max-width: 80%;
+  margin: 20px auto;
+  font-weight: 700; }
+
+.DocumentF0295613 .certify-information {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; }
+
+.DocumentF0295613 .certify-information__block {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between; }
+
+.DocumentF0295613 .certify-information__name {
+  width: 100%;
+  max-width: 50%; }
+
+.DocumentF0295613 .boss {
+  flex-direction: column;
+  display: flex;
+  gap: 10px; }
+
+.DocumentF0295613 .sign-date {
+  display: flex;
+  gap: 50px;
+  justify-content: end;
+  margin-top: 20px; }

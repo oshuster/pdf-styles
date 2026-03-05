@@ -1,0 +1,73 @@
+.document-container-F0209513 table {
+  width: 100%;
+  margin-bottom: 20px; }
+
+.document-container-F0209513 table th {
+  font-weight: 400; }
+
+.document-container-F0209513 .document-info__top {
+  text-align: end;
+  max-width: 280px;
+  margin-left: auto; }
+
+.document-container-F0209513 .note-obsession {
+  padding: 20px;
+  max-width: 300px; }
+
+.document-container-F0209513 .for-btn-center .popup-custom__block {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding-right: 5px; }
+
+.document-container-F0209513 .date-send-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  align-items: center; }
+
+.document-container-F0209513 .certify-boss,
+.document-container-F0209513 .certify-accounting {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center; }
+
+.document-container-F0209513 .certify-boss-name {
+  padding-top: 25px;
+  width: 50%; }
+
+.document-container-F0209513 .certify-boss-preview {
+  flex-direction: column;
+  justify-content: space-between; }
+
+.document-container-F0209513 .certify-boss-preview__flex {
+  display: flex;
+  justify-content: space-between; }
+
+.document-container-F0209513 .sign-date {
+  display: flex;
+  justify-content: end;
+  gap: 50px;
+  margin-top: 20px; }
+
+.document-container-F0209513 .year {
+  display: flex; }
+
+.document-container-F0209513 .year-day {
+  width: 20px;
+  border-bottom: 1px solid #000;
+  height: 20px; }
+
+.document-container-F0209513 .year-month {
+  width: 100px;
+  border-bottom: 1px solid #000;
+  height: 20px; }
+
+.document-container-F0209513 .year-years {
+  margin-left: 10px;
+  width: 40px;
+  border-bottom: 1px solid #000;
+  height: 20px; }
+
