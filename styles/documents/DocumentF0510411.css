@@ -1,0 +1,210 @@
+/* Стилі повної форми (Preview) додатка Д4 (F0510411) звіту F0500111. */
+
+.document-container-F0510411 table {
+  width: 100%;
+  margin-bottom: 1.25rem;
+}
+
+.document-container-F0510411 .header {
+  display: flex;
+  justify-content: space-between;
+}
+.document-container-F0510411 .doc__stamp {
+  height: 5rem;
+}
+.document-container-F0510411 .statement__stamp {
+  margin-top: 1.25rem;
+  width: 15.625rem;
+}
+.document-container-F0510411 .statement__approved {
+  width: 16.25rem;
+  margin-bottom: 1.875rem;
+}
+.document-container-F0510411 .flex-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Секції / таблиці */
+.document-container-F0510411 .tax-period th {
+  min-width: 2.5rem;
+}
+.document-container-F0510411 .tax-period,
+.document-container-F0510411 .info-person,
+.document-container-F0510411 .section-one,
+.document-container-F0510411 .statement__what-document,
+.document-container-F0510411 .section-two,
+.document-container-F0510411 .section-three {
+  margin-bottom: 0.625rem;
+}
+.document-container-F0510411 .section-one table {
+  width: 100%;
+}
+.document-container-F0510411 .date-table {
+  margin: 1.25rem 0;
+}
+
+/* Номер */
+.document-container-F0510411 .number-for {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.875rem 0;
+}
+.document-container-F0510411 .number-for__block {
+  display: flex;
+  gap: 0.625rem;
+}
+.document-container-F0510411 .number-for__block-input {
+  border: 1px solid #000;
+  width: 12.5rem;
+}
+
+/* Виноски */
+.document-container-F0510411 .comment {
+  margin-top: 1.25rem;
+}
+.document-container-F0510411 .comment p {
+  margin-bottom: 0.375rem;
+}
+
+/* Підписи */
+.document-container-F0510411 .sign {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-20);
+  margin-top: 1.25rem;
+}
+.document-container-F0510411 .sign-top,
+.document-container-F0510411 .sign-bottom {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.document-container-F0510411 .sign-block__number {
+  width: 12.5rem;
+}
+.document-container-F0510411 .sign-block__number-input {
+  border: 1px solid #000;
+  width: 12.5rem;
+  min-height: 1.25rem;
+}
+.document-container-F0510411 .sign-block__sign-input {
+  border-bottom: 1px solid #000;
+  width: 7.5rem;
+  min-height: 1.25rem;
+}
+.document-container-F0510411 .sign-blocks__name-input {
+  border-bottom: 1px solid #000;
+  width: 18.75rem;
+  min-height: 1.25rem;
+}
+.document-container-F0510411 .width-title-checkbox {
+  width: 8.75rem;
+}
+
+/* Керівник / підпис */
+.document-container-F0510411 .statement-boss__which {
+  display: flex;
+  justify-content: space-between;
+}
+.document-container-F0510411 .statement-boss__which-name {
+  display: flex;
+  gap: 3.125rem;
+  margin-top: 1.25rem;
+  justify-content: end;
+}
+.document-container-F0510411 .statement-boss__name {
+  max-width: 50rem;
+}
+.document-container-F0510411 .statement-boss__sign {
+  max-width: 6.25rem;
+}
+.document-container-F0510411 .statement-name__width {
+  min-width: 18.75rem;
+}
+.document-container-F0510411 .text__MP {
+  text-align: center;
+  margin: 1.875rem 0;
+}
+
+@media (max-width: 900px) {
+  .document-container-F0510411 .header {
+    flex-direction: column;
+  }
+  .document-container-F0510411 .statement__approved {
+    width: 100%;
+    margin-top: 0.625rem;
+  }
+  .document-container-F0510411 .number-for {
+    flex-direction: column;
+    gap: 0.3125rem;
+  }
+  .document-container-F0510411 .number-for__block-text {
+    min-width: 13.75rem;
+    text-align: start !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .document-container-F0510411 .statement__data {
+    flex-direction: column;
+  }
+  .document-container-F0510411 .statement-boss__which {
+    flex-direction: column;
+  }
+  .document-container-F0510411 .statement-boss__which-name {
+    justify-content: start;
+  }
+  .document-container-F0510411 .date {
+    flex-direction: column;
+    gap: 0.625rem;
+  }
+  .document-container-F0510411 .statement-name__width {
+    max-width: 25rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .document-container-F0510411 .header {
+    flex-direction: column;
+    gap: 0.625rem;
+  }
+  .document-container-F0510411 .statement-give-width {
+    width: 6.25rem;
+  }
+  .document-container-F0510411 .statement__approved {
+    width: 100%;
+    margin-top: 0.625rem;
+    margin-bottom: 1.25rem;
+  }
+  .document-container-F0510411 .doc__stamp {
+    height: auto;
+  }
+}
+
+@media (max-width: 580px) {
+  .document-container-F0510411 .styles-scroll {
+    margin-bottom: 1.25rem;
+  }
+  .document-container-F0510411 .doc__stamp {
+    width: 100%;
+  }
+  .document-container-F0510411 .width-paste {
+    width: 7.5rem;
+  }
+  .document-container-F0510411 .statement-boss__which-name {
+    flex-direction: column;
+  }
+  .document-container-F0510411 .statement-name__width {
+    min-width: 15rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .document-container-F0510411 .number-for__block {
+    flex-direction: column;
+    gap: 0.3125rem;
+  }
+}
