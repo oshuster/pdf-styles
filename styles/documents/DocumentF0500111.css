@@ -1,0 +1,285 @@
+/* Стилі повної форми (Preview) квартального звіту F0500111. */
+
+.document-container-f0500111 table {
+  margin-bottom: 1.25rem;
+}
+
+.document-container-f0500111 .header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+/* Період / реквізити */
+.document-container-f0500111 .statement-period__flex-date {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: space-between;
+}
+.document-container-f0500111 .statement-document__number-katotg {
+  display: flex;
+  gap: 0.625rem;
+  justify-content: center;
+  align-items: center;
+}
+.document-container-f0500111 .statement-name__width {
+  min-width: 18.75rem;
+}
+
+/* Керівник / підпис */
+.document-container-f0500111 .statement-boss__which {
+  display: flex;
+  justify-content: space-between;
+}
+.document-container-f0500111 .statement-boss__which-name {
+  display: flex;
+  gap: 3.125rem;
+  margin-top: 1.25rem;
+  justify-content: end;
+}
+.document-container-f0500111 .statement-boss__name {
+  max-width: 50rem;
+}
+.document-container-f0500111 .statement-boss__sign {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  max-width: 6.25rem;
+}
+
+/* Таблиці документа */
+.document-container-f0500111 .statement__what-document table {
+  border: none;
+}
+.document-container-f0500111 .statement__what-document th {
+  text-align: start;
+}
+.document-container-f0500111 .container-document-f0500111 th {
+  min-height: 1.25rem;
+  padding: 0.3125rem 0.125rem;
+  font-weight: 400;
+}
+.document-container-f0500111 .container-document-f0500111 table {
+  width: 100%;
+}
+.document-container-f0500111 .statement-var table {
+  width: 100%;
+}
+.document-container-f0500111 .statement-number th,
+.document-container-f0500111 .statement-kod th,
+.document-container-f0500111 .statement__number-liquidated th,
+.document-container-f0500111 .statement__kod-branch th,
+.document-container-f0500111 .statement-adress th,
+.document-container-f0500111 .statement-calculation th,
+.document-container-f0500111 .statement-info__applications th,
+.document-container-f0500111 .statement__single-contribution th,
+.document-container-f0500111 .statement-accrual th,
+.document-container-f0500111 .statement__parent th,
+.document-container-f0500111 .statement-var th {
+  text-align: center;
+}
+.document-container-f0500111 .title-number {
+  width: 2.5rem;
+  text-align: center !important;
+}
+
+/* Штамп / затвердження */
+.document-container-f0500111 .statement__stamp {
+  margin-top: 0.625rem;
+  margin-left: 3.125rem;
+}
+.document-container-f0500111 .statement__approved {
+  width: 16.25rem;
+}
+
+/* Блок "Який документ" */
+.document-container-f0500111 .what-document__choice-width {
+  width: 2.5rem;
+}
+.document-container-f0500111 .what-document__text-width {
+  width: 8.125rem;
+}
+.document-container-f0500111 .what-document__end-width {
+  width: 2.1875rem;
+}
+
+/* Блок "Без..." (untitled table) */
+.document-container-f0500111 .statement-without__table-title {
+  border: 1px solid #000;
+  height: 1.875rem;
+}
+.document-container-f0500111 .statement-without__block-reportable {
+  min-height: 1.5625rem;
+  max-height: 1.875rem;
+  padding-bottom: 0.3125rem;
+}
+
+/* Дані / дата */
+.document-container-f0500111 .statement__data {
+  display: flex;
+  gap: 0.625rem;
+  align-items: center;
+  margin: 1.25rem 0;
+}
+.document-container-f0500111 .statement__data-bottom {
+  width: 13.125rem;
+  border: 1px solid #000;
+}
+.document-container-f0500111 .statement__data-paste {
+  width: 8.75rem;
+  border: 1px solid #000;
+}
+.document-container-f0500111 .statement__data-text {
+  margin-left: 3.125rem;
+}
+.document-container-f0500111 .text__MP {
+  text-align: center;
+  margin: 1.875rem 0;
+}
+
+/* Рамки / бланк */
+.document-container-f0500111 .blank {
+  border: 1px solid #000;
+}
+.document-container-f0500111 .blank__container-inside {
+  margin: 1.25rem;
+  border: 1px dashed #000;
+  padding: var(--padding-20);
+}
+.document-container-f0500111 .text-decoration {
+  border-bottom: 2px solid #000;
+}
+.document-container-f0500111 .text-decoration_1 {
+  border-bottom: 1px solid #000;
+}
+.document-container-f0500111 .text-decoration__border {
+  border: 1px solid #000;
+  min-height: 1.25rem;
+}
+
+/* Виноски */
+.document-container-f0500111 .comment {
+  line-height: 130%;
+}
+.document-container-f0500111 .comment sup {
+  margin-right: 0.3125rem;
+}
+
+/* Розкладка / вирівнювання */
+.document-container-f0500111 .align-block-center {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+}
+.document-container-f0500111 .block-center.align-center {
+  display: flex;
+  flex-direction: column;
+  gap: 0.0625rem;
+  justify-content: center;
+}
+.document-container-f0500111 .align-center {
+  align-items: center;
+}
+.document-container-f0500111 .float-right {
+  float: right;
+}
+.document-container-f0500111 .display-flex {
+  display: flex;
+  justify-content: center;
+  gap: var(--gap-20);
+  padding: 0 1.25rem;
+}
+
+/* Хелпери ширини / висоти */
+.document-container-f0500111 .statement-give-width {
+  width: 12.5rem;
+}
+.document-container-f0500111 .max-width-30 {
+  width: 0.625rem;
+}
+.document-container-f0500111 .width-paste {
+  width: 13.125rem;
+}
+.document-container-f0500111 .width-paste__more {
+  width: 17.75rem;
+}
+.document-container-f0500111 .width-for__three {
+  width: 4.375rem !important;
+}
+.document-container-f0500111 .width-100 {
+  width: 62.5rem;
+}
+.document-container-f0500111 .width-520 {
+  width: 32.5rem;
+}
+.document-container-f0500111 .span-width {
+  width: 29.375rem;
+}
+.document-container-f0500111 .width-100percent {
+  width: 100%;
+}
+.document-container-f0500111 .width-40 {
+  width: 0.625rem !important;
+}
+.document-container-f0500111 .table-width-92 {
+  max-width: 92%;
+}
+.document-container-f0500111 .height-min {
+  min-height: 1.25rem !important;
+}
+
+@media (max-width: 800px) {
+  .document-container-f0500111 .statement__data {
+    flex-direction: column;
+    align-items: start;
+  }
+  .document-container-f0500111 .statement-boss__which {
+    flex-direction: column;
+  }
+  .document-container-f0500111 .statement-boss__which-name {
+    justify-content: start;
+  }
+  .document-container-f0500111 .table-width-92 {
+    max-width: 87%;
+  }
+}
+
+@media (max-width: 700px) {
+  .document-container-f0500111 .header {
+    flex-direction: column;
+  }
+  .document-container-f0500111 .statement-give-width {
+    width: 6.25rem;
+  }
+  .document-container-f0500111 .statement__approved {
+    width: 100%;
+    margin-top: 0.625rem;
+  }
+  .document-container-f0500111 .doc__stamp {
+    width: 100%;
+  }
+  .document-container-f0500111 .date-number {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 580px) {
+  .document-container-f0500111 .styles-scroll {
+    margin-bottom: 1.25rem;
+  }
+  .document-container-f0500111 .width-paste {
+    width: 7.5rem;
+  }
+  .document-container-f0500111 .statement-boss__which-name {
+    flex-direction: column;
+  }
+  .document-container-f0500111 .statement-name__width {
+    min-width: 15rem;
+  }
+  .document-container-f0500111 .statement-period__flex-date {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,242 @@
+/* Стилі повної форми (Preview) додатка Д5 (F0510511) звіту F0500111. */
+
+.document-container-f0510510 * {
+  word-break: keep-all;
+  letter-spacing: 0 !important;
+  font-family: 'Times New Roman', Times, serif !important;
+  font-size: 0.875rem;
+}
+.document-container-f0510510 * table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.25rem;
+}
+.document-container-f0510510 table {
+  width: 100%;
+  margin-bottom: 1.25rem;
+}
+
+.document-container-f0510510 .header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+.document-container-f0510510 .statement__stamp {
+  width: 23.75rem;
+  margin-top: 1.875rem;
+}
+.document-container-f0510510 .statement__approved {
+  width: 15.625rem;
+}
+.document-container-f0510510 .statement__what-document {
+  margin-bottom: 0.625rem;
+}
+.document-container-f0510510 .statement__reportable-period {
+  margin-bottom: 0.625rem;
+}
+
+/* Блок "Без..." (untitled table) */
+.document-container-f0510510 .statement-without__table {
+  display: flex;
+  border: 1px solid #000;
+}
+.document-container-f0510510 .statement-without__table-inside {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0.375rem;
+}
+.document-container-f0510510 .statement-without__table-title {
+  border-right: 1px solid #000;
+}
+.document-container-f0510510 .statement-without__p-top {
+  border: 1px solid #000;
+  width: 13.75rem;
+}
+.document-container-f0510510 .statement-without__p-year {
+  width: 5rem;
+  border: 1px solid #000;
+}
+.document-container-f0510510 .statement-without__p-kvartal {
+  width: 5rem;
+  border: 1px solid #000;
+}
+.document-container-f0510510 .title-number {
+  width: 1.875rem;
+}
+.document-container-f0510510 .table-title-number {
+  width: 3.125rem;
+}
+.document-container-f0510510 .table-write-block {
+  width: 12.5rem;
+}
+
+/* Адреса / розрахунок */
+.document-container-f0510510 .statement-adress__specific u {
+  display: block;
+}
+.document-container-f0510510 .statement-calculation__specific {
+  display: flex;
+  gap: 9.375rem;
+}
+
+/* Таблиці info / payment */
+.document-container-f0510510 .table-info {
+  margin-bottom: 1.25rem;
+}
+.document-container-f0510510 .table-info th {
+  text-align: start;
+}
+.document-container-f0510510 .table-payment {
+  margin-bottom: 1.25rem;
+}
+.document-container-f0510510 .table-payment__write {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 0.3125rem;
+  align-items: flex-end;
+}
+.document-container-f0510510 .table-payment__write-input {
+  border-bottom: 1px solid #000;
+  width: 10rem;
+}
+.document-container-f0510510 .table table {
+  margin-bottom: 0.3125rem;
+}
+.document-container-f0510510 .font-size-12 th {
+  font-size: 0.75rem;
+}
+
+/* Виноски */
+.document-container-f0510510 .comment {
+  margin-top: 1.25rem;
+}
+
+/* Підписи */
+.document-container-f0510510 .sign {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+}
+.document-container-f0510510 .sign-top,
+.document-container-f0510510 .sign-bottom {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.document-container-f0510510 .sign-block__number {
+  width: 12.5rem;
+}
+.document-container-f0510510 .sign-block__number-input {
+  border: 1px solid #000;
+  width: 12.5rem;
+  min-height: 1.25rem;
+}
+.document-container-f0510510 .sign-block__sign-input {
+  border-bottom: 1px solid #000;
+  width: 7.5rem;
+  min-height: 1.25rem;
+}
+.document-container-f0510510 .sign-blocks__name-input {
+  border: 1px solid #000;
+  width: 19.375rem;
+  min-height: 1.25rem;
+}
+
+/* Дата */
+.document-container-f0510510 .date {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.625rem 0 2.5rem;
+}
+.document-container-f0510510 .date-input {
+  border: 1px solid #000;
+  width: 12.5rem;
+}
+
+/* Керівник / підпис */
+.document-container-f0510510 .statement-boss__which {
+  display: flex;
+  justify-content: space-between;
+}
+.document-container-f0510510 .statement-boss__which-name {
+  display: flex;
+  gap: 3.125rem;
+  margin-top: 1.25rem;
+  justify-content: end;
+}
+.document-container-f0510510 .statement-boss__name {
+  max-width: 50rem;
+}
+.document-container-f0510510 .statement-boss__sign {
+  max-width: 6.25rem;
+}
+.document-container-f0510510 .statement-name__width {
+  min-width: 18.75rem;
+}
+.document-container-f0510510 .text__MP {
+  text-align: center;
+  margin: 1.875rem 0;
+}
+
+@media (max-width: 900px) {
+  .document-container-f0510510 .header {
+    flex-direction: column;
+  }
+  .document-container-f0510510 .statement__approved {
+    width: 100%;
+    margin-top: 0.625rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .document-container-f0510510 .statement__data {
+    flex-direction: column;
+  }
+  .document-container-f0510510 .statement-boss__which {
+    flex-direction: column;
+  }
+  .document-container-f0510510 .statement-boss__which-name {
+    justify-content: start;
+  }
+  .document-container-f0510510 .date {
+    flex-direction: column;
+    gap: 0.625rem;
+  }
+  .document-container-f0510510 .statement-name__width {
+    max-width: 25rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .document-container-f0510510 .header {
+    flex-direction: column;
+  }
+  .document-container-f0510510 .statement-give-width {
+    width: 6.25rem;
+  }
+  .document-container-f0510510 .statement__approved {
+    width: 100%;
+    margin-top: 0.625rem;
+  }
+}
+
+@media (max-width: 580px) {
+  .document-container-f0510510 .styles-scroll {
+    margin-bottom: 1.25rem;
+  }
+  .document-container-f0510510 .doc__stamp {
+    width: 100%;
+  }
+  .document-container-f0510510 .width-paste {
+    width: 7.5rem;
+  }
+  .document-container-f0510510 .statement-boss__which-name {
+    flex-direction: column;
+  }
+  .document-container-f0510510 .statement-name__width {
+    min-width: 15rem;
+  }
+}
