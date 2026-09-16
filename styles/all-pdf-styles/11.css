@@ -1,0 +1,142 @@
+
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, 
+a, img, sub, sup, u, i, center,
+dl, dt, dd, ol, ul, li,
+table, caption, tbody, tfoot, thead, tr, th, td,
+footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	line-height: 1;
+}
+a{
+  color: #000;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.container{
+  margin: 10px auto;
+  max-width: 210mm;
+  padding: 10px 20px 10px 40px;
+  font-size: 14px;
+}
+.logo{
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 20px;
+}
+.header{
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+}
+.header p{
+  font-weight: 600;
+}
+
+.text-decor{
+  text-decoration: underline;
+}
+
+.company-info{
+  margin-bottom: 15px;
+  p{
+    margin-bottom: 2px;
+    line-height: 140%;
+  }
+}
+.info-person{
+  margin-bottom: 20px;
+}
+.payment-info{
+   margin-bottom: 20px;
+   P{
+    line-height: 130%;
+   }
+   span{
+    text-decoration: underline;
+   }
+}
+.price{
+  margin-bottom: 20px;
+}
+.price-title{
+  color: #6e6c6cf5;
+  margin-bottom: 4px;
+}
+
+th{
+  border: 1px solid #000;
+  padding: 6px 4px;
+  font-weight: 400;
+}
+
+thead tr th{
+  font-weight: 600;
+}
+tbody th{
+  text-align: start;
+}
+.input-text-100{
+  min-width: 100px;
+  border-bottom: 1px solid #000
+}
+.input-text-200{
+  min-width: 200px;
+    border-bottom: 1px solid #000
+}
+.input-text-350{
+  min-width: 350px;
+    border-bottom: 1px solid #000
+}
+.display-flex{
+  display: flex;
+}
+
+.text-left{
+  text-align: end;
+}
+.font-weight-600{
+  font-weight: 600;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+.mb-10{
+  margin-bottom: 10px;
+}
+.mt-40{
+  margin-top: 40px;
+}
+.payment-text{
+  line-height: 120%;
+  span{
+    text-decoration: underline;
+  }
+}
+.info{
+    line-height: 120%;
+}
+.signer-info{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  align-items: end;
+}
+.text-align-end{
+  text-align: end;
+  justify-content: end;
+}
+.margin-right{
+  margin-right: 10px
+}
