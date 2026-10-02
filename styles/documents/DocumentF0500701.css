@@ -1,0 +1,87 @@
+.document-container-f0500701 .header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.25rem; }
+
+.document-container-f0500701 .statement__approved {
+  width: 16.25rem; }
+
+.document-container-f0500701 .statement__table {
+  width: 100%;
+  margin-bottom: 1.25rem; }
+
+.document-container-f0500701 .statement__cell {
+  font-weight: 400; }
+
+.document-container-f0500701 .statement__cell--start {
+  text-align: start; }
+
+.document-container-f0500701 .title-number {
+  width: 2.5rem; }
+
+.document-container-f0500701 .what-document__text-width {
+  width: 8.125rem; }
+
+.document-container-f0500701 .statement-payer__title {
+  width: 11.25rem; }
+
+.document-container-f0500701 .statement-give-width {
+  width: 12.5rem; }
+
+.document-container-f0500701 .width-paste {
+  width: 13.125rem; }
+
+.document-container-f0500701 .statement-period__flex-date {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: space-between; }
+
+.document-container-f0500701 .statement-period__select {
+  display: flex;
+  flex-direction: column;
+  gap: 0.0625rem;
+  justify-content: center;
+  align-items: center; }
+
+.document-container-f0500701 .text-decoration__border {
+  border: 1px solid #000;
+  min-height: 1.25rem; }
+
+.document-container-f0500701 .statement__data {
+  display: flex;
+  gap: 0.625rem;
+  align-items: center;
+  margin: 1.25rem 0; }
+
+.document-container-f0500701 .statement-boss__which {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.25rem; }
+
+.document-container-f0500701 .statement-boss__which-name {
+  display: flex;
+  gap: 3.125rem;
+  margin-top: 1.25rem;
+  justify-content: end; }
+
+.document-container-f0500701 .statement-boss__name {
+  max-width: 31.25rem; }
+
+.document-container-f0500701 .statement-boss__sign {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  max-width: 6.25rem; }
+
+.document-container-f0500701 .statement-name__width {
+  min-width: 18.75rem; }
+
+.document-container-f0500701 .text__MP {
+  text-align: center;
+  margin: 1.875rem 0; }
+
+.document-container-f0500701 .comment {
+  line-height: 130%; }
+
+.document-container-f0500701 .comment__mark {
+  margin-right: 0.3125rem; }
